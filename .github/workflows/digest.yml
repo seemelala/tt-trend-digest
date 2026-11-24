@@ -4,7 +4,7 @@ on:
   schedule:
     # 13:00 UTC = 21:00 Singapore = 08:00 US Eastern in winter (09:00 in summer).
     # GitHub may start scheduled runs a few minutes to a few dozen minutes late.
-    - cron: "0 13 * * *"
+    - cron: "7 1 * * *"
   workflow_dispatch:
 
 permissions:
