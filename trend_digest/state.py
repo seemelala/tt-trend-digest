@@ -51,6 +51,11 @@ def normalize_state(data):
             state["repository"] = data["repository"]
         if isinstance(data.get("seen"), dict):
             state["seen"] = copy.deepcopy(data["seen"])
+        if isinstance(data.get("weekly_project_history"), dict):
+            state["weekly_project_history"] = {
+                key: day for key, day in data["weekly_project_history"].items()
+                if isinstance(day, str)
+            }
         if isinstance(data.get("snapshots"), dict):
             state["snapshots"] = copy.deepcopy(data["snapshots"])
     return state

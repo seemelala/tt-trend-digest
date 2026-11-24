@@ -2,7 +2,7 @@ name: Trend digest
 
 on:
   schedule:
-    # 13:00 UTC = 21:00 Singapore = 08:00 US Eastern in winter (09:00 in summer).
+    # 01:07 UTC 对应北京时间 09:07。
     # GitHub may start scheduled runs a few minutes to a few dozen minutes late.
     - cron: "7 1 * * *"
   workflow_dispatch:
@@ -21,6 +21,9 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
+        with:
+          # 排队中的任务也要读取上一轮刚写回的去重状态。
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-python@v7
         with:
@@ -43,7 +46,7 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           SITE_URL: ${{ vars.SITE_URL }}
-        run: python -m trend_digest --config digest.toml
+        run: python -m trend_digest --config digest.toml --weekly-projects
 
       - name: Save the web archive and state
         # Runs even when one channel failed, so the 7-day memory stays correct.

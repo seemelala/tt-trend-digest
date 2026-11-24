@@ -2,7 +2,7 @@
 # It is the only file you need to edit. Each [[sources]] entry is one API call per run.
 
 language = "en"          # "en" or "zh": section names, footer and dates
-timezone = "America/New_York"   # decides the date in the title and which day is Monday
+timezone = "Asia/Shanghai"      # decides the date in the title and which day is Monday
 title = "EveryInfra Trend Digest"
 site_url = ""            # your GitHub Pages address; adds the "Web archive" button
 max_items = 12           # the digest never holds more than this

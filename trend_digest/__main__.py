@@ -39,6 +39,8 @@ def parse_args(argv):
     parser = argparse.ArgumentParser(prog="python -m trend_digest",
                                      description="Build a trend digest and send it to chat apps.")
     parser.add_argument("--config", default="digest.toml")
+    parser.add_argument("--weekly-projects", action="store_true",
+                        help="include projects from the Chinese tech newsletter")
     parser.add_argument("--dry-run", action="store_true", help="print only; send and save nothing")
     parser.add_argument("--state", default=os.path.join("state", "state.json"))
     parser.add_argument("--site", default="docs", help="web archive folder (GitHub Pages)")
@@ -116,7 +118,8 @@ def build(args, config, kind, exclude_ids=()):
                           "Get a key at https://everyinfra.com/?utm_source=github-template")
     return build_digest(config, api_key=api_key, state=load_own_state(args.state),
                         now=run_time(args.date, config), llm=llm_from_env(config),
-                        fetch=fetch, kind=kind, exclude_ids=exclude_ids)
+                        fetch=fetch, kind=kind, exclude_ids=exclude_ids,
+                        weekly_projects=args.weekly_projects)
 
 
 def report_failures(digest):
@@ -131,7 +134,7 @@ def report_failures(digest):
 
 def all_failed(digest):
     usage = digest["usage"]
-    return usage["calls"] > 0 and len(usage["failed"]) == usage["calls"]
+    return not digest["sections"] and usage["calls"] > 0 and len(usage["failed"]) == usage["calls"]
 
 
 def print_dry_run(digest):

@@ -61,7 +61,8 @@ def write_document(doc, target):
 def why_empty(digest, kind):
     """A reason to refuse output (exit 1), or None when the digest is usable."""
     usage = digest["usage"]
-    if kind != "weekly" and usage["calls"] and len(usage["failed"]) == usage["calls"]:
+    if (kind != "weekly" and not digest["sections"] and usage["calls"]
+            and len(usage["failed"]) == usage["calls"]):
         return "every source failed or came back empty: " + ", ".join(
             f"{f['source']} ({f['reason']})" for f in usage["failed"])
     if not used_items(digest, kind):
