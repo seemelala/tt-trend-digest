@@ -1,0 +1,318 @@
+{
+ "version": 1,
+ "date": "2026-11-24",
+ "language": "en",
+ "title": "EveryInfra Trend Digest · Tue, Nov 24",
+ "keywords": [
+  "Agent",
+  "Code",
+  "Coding"
+ ],
+ "sections": [
+  {
+   "id": "github",
+   "label": "GitHub trending",
+   "icon_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+   "items": [
+    {
+     "id": "github:elementalsouls/Claude-BugHunter",
+     "source": "github/trending",
+     "title": "elementalsouls/Claude-BugHunter",
+     "url": "https://github.com/elementalsouls/Claude-BugHunter",
+     "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure…",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 1,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 20735,
+       "delta": 1833
+      }
+     ],
+     "metric_text": "★ 20,735 (+1,833 today) · Python",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 1,
+      "language": "Python"
+     }
+    },
+    {
+     "id": "github:obra/superpowers",
+     "source": "github/trending",
+     "title": "obra/superpowers",
+     "url": "https://github.com/obra/superpowers",
+     "summary": "An agentic skills framework & software development methodology that works.",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 2,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 325594,
+       "delta": 1006
+      }
+     ],
+     "metric_text": "★ 325,594 (+1,006 today) · Shell",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 2,
+      "language": "Shell"
+     }
+    },
+    {
+     "id": "github:HKUDS/CLI-Anything",
+     "source": "github/trending",
+     "title": "HKUDS/CLI-Anything",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 3,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 64305,
+       "delta": 1075
+      }
+     ],
+     "metric_text": "★ 64,305 (+1,075 today) · Python",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 3,
+      "language": "Python"
+     }
+    }
+   ]
+  },
+  {
+   "id": "producthunt",
+   "label": "Product Hunt",
+   "icon_url": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64",
+   "items": [
+    {
+     "id": "producthunt:viktor",
+     "source": "producthunt/trending",
+     "title": "Viktor Code",
+     "url": "https://www.producthunt.com/products/viktor",
+     "summary": "Coding agents know your repo. Viktor knows your company.",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:claude-code",
+     "source": "producthunt/trending",
+     "title": "Claude Ship",
+     "url": "https://www.producthunt.com/products/claude-code",
+     "summary": "Ship code as fast as you can write it",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:distribution-dev",
+     "source": "producthunt/trending",
+     "title": "distribution.dev",
+     "url": "https://www.producthunt.com/products/distribution-dev",
+     "summary": "Advertise to developers on many sites with one campaign",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reddit",
+   "label": "Reddit · r/LocalLLaMA, r/MachineLearning",
+   "icon_url": "https://www.google.com/s2/favicons?domain=reddit.com&sz=64",
+   "items": [
+    {
+     "id": "reddit:1y3q68f",
+     "source": "reddit/subreddit_posts",
+     "title": "The US-China Open-Weight Feedback Loop",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y3q68f/the_uschina_openweight_feedback_loop/",
+     "summary": "",
+     "metrics": [
+      {
+       "label": "upvotes",
+       "value": 1085,
+       "delta": null
+      },
+      {
+       "label": "comments",
+       "value": 76,
+       "delta": null
+      }
+     ],
+     "metric_text": "1.1k upvotes · 76 comments · r/LocalLLaMA",
+     "why": null,
+     "extra": {
+      "platform": "reddit",
+      "community": "LocalLLaMA",
+      "flair": "Showcase"
+     }
+    },
+    {
+     "id": "reddit:1y3lqu3",
+     "source": "reddit/subreddit_posts",
+     "title": "GLM 5.4 is great at coding. But absolutely garbage at writing and anything but that. Are future open weight models going to be just codemaxxed??",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y3lqu3/glm_54_is_great_at_coding_but_absolutely_garbage/",
+     "summary": "",
+     "metrics": [
+      {
+       "label": "upvotes",
+       "value": 819,
+       "delta": null
+      },
+      {
+       "label": "comments",
+       "value": 366,
+       "delta": null
+      }
+     ],
+     "metric_text": "819 upvotes · 366 comments · r/LocalLLaMA",
+     "why": null,
+     "extra": {
+      "platform": "reddit",
+      "community": "LocalLLaMA",
+      "flair": "Discussion"
+     }
+    },
+    {
+     "id": "reddit:1y3oh22",
+     "source": "reddit/subreddit_posts",
+     "title": "Peak ICLR 2027 rebuttal experiences [D]",
+     "url": "https://www.reddit.com/r/MachineLearning/comments/1y3oh22/peak_iclr_2027_rebuttal_experiences_d/",
+     "summary": "Ask for 8 more experiments. 2a. No reply(mostly) 2b. Ask for another 8 experiments. 2c. Ghost for a week, then come back 2 hours before the deadline: “If you run 8 more experiments, I’ll consider raising my score.” 3. A…",
+     "metrics": [
+      {
+       "label": "upvotes",
+       "value": 75,
+       "delta": null
+      },
+      {
+       "label": "comments",
+       "value": 13,
+       "delta": null
+      }
+     ],
+     "metric_text": "75 upvotes · 13 comments · r/MachineLearning",
+     "why": null,
+     "extra": {
+      "platform": "reddit",
+      "community": "MachineLearning",
+      "flair": "Discussion"
+     }
+    }
+   ]
+  },
+  {
+   "id": "google_news",
+   "label": "Google News",
+   "icon_url": "https://www.google.com/s2/favicons?domain=news.google.com&sz=64",
+   "items": [
+    {
+     "id": "gnews:5707f4f4d41e",
+     "source": "google_news/search",
+     "title": "Signal joins United Airlines, banks in limiting AI agents over customer risks",
+     "url": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
+     "summary": "Privacy-focused messaging application Signal is tightening protections against artificial intelligence agents that can access information ...",
+     "metrics": [],
+     "metric_text": "CNBC · 5h ago",
+     "why": null,
+     "extra": {
+      "platform": "google_news",
+      "outlet": "CNBC",
+      "published_at": "2026-11-24T07:25:41Z",
+      "keyword": "AI agents"
+     }
+    },
+    {
+     "id": "gnews:21c67f84759f",
+     "source": "google_news/search",
+     "title": "Amazon says hackers’ AI agents found and exploited 0-day with little human input",
+     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+     "summary": "",
+     "metrics": [],
+     "metric_text": "Ars Technica · 53m ago",
+     "why": null,
+     "extra": {
+      "platform": "google_news",
+      "outlet": "Ars Technica",
+      "published_at": "2026-11-24T12:30:05Z",
+      "keyword": "AI agents"
+     }
+    },
+    {
+     "id": "gnews:a7e646a2071b",
+     "source": "google_news/search",
+     "title": "AI Coding Tools Without Company Context Cost Businesses Thousands of Engineering Hours to Fix, DesignVerse Report Finds",
+     "url": "https://www.morningstar.com/news/business-wire/20261123103590/ai-coding-tools-without-company-context-cost-businesses-thousands-of-engineering-hours-to-fix-designverse-report-finds",
+     "summary": "",
+     "metrics": [],
+     "metric_text": "Morningstar · 4h ago",
+     "why": null,
+     "extra": {
+      "platform": "google_news",
+      "outlet": "Morningstar",
+      "published_at": "2026-11-24T08:49:00Z",
+      "keyword": "AI coding tools"
+     }
+    }
+   ]
+  }
+ ],
+ "weekly": null,
+ "usage": {
+  "calls": 6,
+  "charged_usd": 0.004891,
+  "failed": []
+ },
+ "index_entry": {
+  "date": "2026-11-24",
+  "title": "EveryInfra Trend Digest · Tue, Nov 24",
+  "keywords": [
+   "Agent",
+   "Code",
+   "Coding"
+  ],
+  "count": 12
+ }
+}

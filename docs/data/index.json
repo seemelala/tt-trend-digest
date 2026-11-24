@@ -1,24 +1,13 @@
 [
  {
-  "date": "2026-11-23",
-  "title": "EveryInfra Trend Digest · Mon, Nov 23",
+  "date": "2026-11-24",
+  "title": "EveryInfra Trend Digest · Tue, Nov 24",
   "keywords": [
-   "agents",
-   "coding",
-   "models"
+   "Agent",
+   "Code",
+   "Coding"
   ],
   "count": 12,
-  "repository": "everyinfra/trend-digest"
- },
- {
-  "date": "2026-11-22",
-  "title": "EveryInfra Trend Digest · Sun, Nov 22",
-  "keywords": [
-   "AI Agent",
-   "agentic",
-   "models"
-  ],
-  "count": 12,
-  "repository": "everyinfra/trend-digest"
+  "repository": "seemelala/tt-trend-digest"
  }
 ]
