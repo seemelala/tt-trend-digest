@@ -1,0 +1,777 @@
+{
+ "id": "req_fixture",
+ "platform": "twitter",
+ "action": "trending",
+ "results": [
+  {
+   "id": "Tom Jackson",
+   "name": "Tom Jackson",
+   "rank": 1,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "NFL Primetime",
+   "name": "NFL Primetime",
+   "rank": 2,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Good Sunday",
+   "name": "Good Sunday",
+   "rank": 3,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#AskFFT",
+   "name": "#AskFFT",
+   "rank": 4,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Lamine",
+   "name": "Lamine",
+   "rank": 5,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "RIP TJ",
+   "name": "RIP TJ",
+   "rank": 6,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Villarreal",
+   "name": "Villarreal",
+   "rank": 7,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#sundayvibes",
+   "name": "#sundayvibes",
+   "rank": 8,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Bernal",
+   "name": "Bernal",
+   "rank": 9,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#FoolInLoveEP14",
+   "name": "#FoolInLoveEP14",
+   "rank": 10,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#DreaminaMadeBrandBuzz",
+   "name": "#DreaminaMadeBrandBuzz",
+   "rank": 11,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Fermin",
+   "name": "Fermin",
+   "rank": 12,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "RIP Legend",
+   "name": "RIP Legend",
+   "rank": 13,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Sunday Funday",
+   "name": "Sunday Funday",
+   "rank": 14,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#中国第一废人姚润昊",
+   "name": "#中国第一废人姚润昊",
+   "rank": 15,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Go Birds",
+   "name": "Go Birds",
+   "rank": 16,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Blessed Sunday",
+   "name": "Blessed Sunday",
+   "rank": 17,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "NFL Sunday",
+   "name": "NFL Sunday",
+   "rank": 18,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Pumas",
+   "name": "Pumas",
+   "rank": 19,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Gerard Martin",
+   "name": "Gerard Martin",
+   "rank": 20,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Panamá",
+   "name": "Panamá",
+   "rank": 21,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Los Rayados",
+   "name": "Los Rayados",
+   "rank": 22,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Jay Clayton",
+   "name": "Jay Clayton",
+   "rank": 23,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Juventus vs Venezia",
+   "name": "Juventus vs Venezia",
+   "rank": 24,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Liverpool",
+   "name": "Liverpool",
+   "rank": 25,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Full PPR",
+   "name": "Full PPR",
+   "rank": 26,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "BLANKET KICK",
+   "name": "BLANKET KICK",
+   "rank": 27,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Speed Queen",
+   "name": "Speed Queen",
+   "rank": 28,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Flick",
+   "name": "Flick",
+   "rank": 29,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Las Vegas y la F1",
+   "name": "Las Vegas y la F1",
+   "rank": 30,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Adeyemi",
+   "name": "Adeyemi",
+   "rank": 31,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Boise",
+   "name": "Boise",
+   "rank": 32,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Once Caldas",
+   "name": "Once Caldas",
+   "rank": 33,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "King of the Universe",
+   "name": "King of the Universe",
+   "rank": 34,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Lissa",
+   "name": "Lissa",
+   "rank": 35,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "President John F. Kennedy",
+   "name": "President John F. Kennedy",
+   "rank": 36,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Lord's Day",
+   "name": "Lord's Day",
+   "rank": 37,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Bacon",
+   "name": "Bacon",
+   "rank": 38,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "McConkey",
+   "name": "McConkey",
+   "rank": 39,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Flournoy",
+   "name": "Flournoy",
+   "rank": 40,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Ayomanor",
+   "name": "Ayomanor",
+   "rank": 41,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Buchanan",
+   "name": "Buchanan",
+   "rank": 42,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Christ the King",
+   "name": "Christ the King",
+   "rank": 43,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Caleb Douglas",
+   "name": "Caleb Douglas",
+   "rank": 44,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Viva Cristo Rey",
+   "name": "Viva Cristo Rey",
+   "rank": 45,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "President Kennedy",
+   "name": "President Kennedy",
+   "rank": 46,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Sagittarius",
+   "name": "Sagittarius",
+   "rank": 47,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "ILLEGALLY",
+   "name": "ILLEGALLY",
+   "rank": 48,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Hull",
+   "name": "Hull",
+   "rank": 49,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Waddle",
+   "name": "Waddle",
+   "rank": 50,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Devonta Smith",
+   "name": "Devonta Smith",
+   "rank": 51,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Messi",
+   "name": "Messi",
+   "rank": 52,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Carnell Tate",
+   "name": "Carnell Tate",
+   "rank": 53,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Sylvia",
+   "name": "Sylvia",
+   "rank": 54,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "PETA",
+   "name": "PETA",
+   "rank": 55,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "SDSU",
+   "name": "SDSU",
+   "rank": 56,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Robbing",
+   "name": "Robbing",
+   "rank": 57,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Beamer",
+   "name": "Beamer",
+   "rank": 58,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Reptilian",
+   "name": "Reptilian",
+   "rank": 59,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "James Dean",
+   "name": "James Dean",
+   "rank": 60,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Iron Bowl",
+   "name": "Iron Bowl",
+   "rank": 61,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Hartline",
+   "name": "Hartline",
+   "rank": 62,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Enforcing",
+   "name": "Enforcing",
+   "rank": 63,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Mark Ruffalo",
+   "name": "Mark Ruffalo",
+   "rank": 64,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Blanco",
+   "name": "Blanco",
+   "rank": 65,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Ferrari",
+   "name": "Ferrari",
+   "rank": 66,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Real ID",
+   "name": "Real ID",
+   "rank": 67,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "LA Tech",
+   "name": "LA Tech",
+   "rank": 68,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Ford Field",
+   "name": "Ford Field",
+   "rank": 69,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "FSD v15",
+   "name": "FSD v15",
+   "rank": 70,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Reality View",
+   "name": "Reality View",
+   "rank": 71,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Jennifer Lopez",
+   "name": "Jennifer Lopez",
+   "rank": 72,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Go Bears",
+   "name": "Go Bears",
+   "rank": 73,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Lewis",
+   "name": "Lewis",
+   "rank": 74,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "Go ICE",
+   "name": "Go ICE",
+   "rank": 75,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#MCRJakarta",
+   "name": "#MCRJakarta",
+   "rank": 76,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#SeductiveSunday",
+   "name": "#SeductiveSunday",
+   "rank": 77,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#sundaymotivation",
+   "name": "#sundaymotivation",
+   "rank": 78,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#LENAMIUBDParty",
+   "name": "#LENAMIUBDParty",
+   "rank": 79,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#SundayThoughts",
+   "name": "#SundayThoughts",
+   "rank": 80,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#Wordle1982",
+   "name": "#Wordle1982",
+   "rank": 81,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#QG846",
+   "name": "#QG846",
+   "rank": 82,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  },
+  {
+   "id": "#Endfield",
+   "name": "#Endfield",
+   "rank": 83,
+   "volume": "",
+   "period": "Live",
+   "collected_at": "2026-11-22T15:46:08.529000+00:00",
+   "platform": "twitter"
+  }
+ ],
+ "count": 83,
+ "billing": {
+  "charged": true,
+  "credits": 40,
+  "cny": 0.004,
+  "amount": {
+   "credits": 40,
+   "base": "USD",
+   "amount": 0.00055556,
+   "display": {
+    "USD": 0.000556,
+    "CNY": 0.003719
+   },
+   "per_1k": {
+    "USD": 0.555556,
+    "CNY": 3.718526
+   },
+   "rate_source": "live"
+  },
+  "charged_usd": 0.000556,
+  "list_price_credits": 40,
+  "tier_credits": 40
+ }
+}

@@ -1,0 +1,42 @@
+# This is the configuration the EveryInfra #trend-digest channel runs.
+# It is the only file you need to edit. Each [[sources]] entry is one API call per run.
+
+language = "en"          # "en" or "zh": section names, footer and dates
+timezone = "America/New_York"   # decides the date in the title and which day is Monday
+title = "EveryInfra Trend Digest"
+site_url = ""            # your GitHub Pages address; adds the "Web archive" button
+max_items = 12           # the digest never holds more than this
+min_items = 10           # when a source comes back empty, the others add up to 2 more each to reach this
+llm_model = "gemini-3.6-flash"   # only used when the LLM_API_KEY secret is set
+
+[[sources]]
+use = "github/trending"
+limit = 3
+[[sources]]
+use = "producthunt/trending"
+limit = 3
+[[sources]]
+use = "reddit/subreddit_posts"
+params = { subreddit = "LocalLLaMA", sort = "top", date_range = "past_day" }
+limit = 2
+[[sources]]
+use = "reddit/subreddit_posts"
+params = { subreddit = "MachineLearning", sort = "top", date_range = "past_day" }
+limit = 1
+[[sources]]
+use = "google_news/search"
+params = { keyword = "AI agents", time_window = "day" }
+limit = 2
+[[sources]]
+use = "google_news/search"
+params = { keyword = "AI coding tools", time_window = "day" }
+limit = 1
+
+# Optional sources (each one is one more API call per run):
+# [[sources]]
+# use = "reddit/trending_posts"      # site-wide hot posts, not topic-specific
+# limit = 2
+# [[sources]]
+# use = "twitter/trending"           # X trends for one country
+# params = { country = "us" }
+# limit = 3

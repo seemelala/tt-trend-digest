@@ -1,0 +1,286 @@
+{
+  "name": "New subreddit posts to Discord (EveryInfra)",
+  "nodes": [
+    {
+      "id": "9ff0980d-2eb4-5ba0-80cc-c4050c11eb3b",
+      "name": "Overview",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -540,
+        -120
+      ],
+      "parameters": {
+        "content": "## New subreddit posts to Discord\n\n### How it works\nFor community managers and builders who want new posts from one subreddit in a Discord channel. Every 15 minutes the workflow reads the 10 newest posts with the EveryInfra `reddit/subreddit_posts` endpoint. It compares their ids with the ids saved in workflow static data and posts only the new ones, as one Discord message with title, link, upvotes and comments.\n\nThe first run after you publish only saves the current ids, so the channel does not get old posts. Ids are saved after Discord accepts the message, so if the send fails, the next run sends those posts again.\n\n### Setup\n1. Get an EveryInfra API key at https://everyinfra.com/?utm_source=n8n-template\n2. Create a **Header Auth** credential: Name `Authorization`, Value `Bearer YOUR_KEY`. Select it in **Get newest posts**.\n3. In Discord: Channel settings > Integrations > Webhooks > New Webhook > Copy Webhook URL.\n4. In **Settings**, paste the URL into `discord_webhook_url` and set `subreddit` (without `r/`).\n5. Click **Execute workflow**. This test run posts the 3 newest posts and does not save ids. Then click **Publish**.\n\n### Customization\nChange the interval in **Every 15 minutes**. A run reads only the 10 newest posts, so for a subreddit with more than 10 posts per interval, use a shorter interval. Cost: $0.56 per 1,000 calls, about $1.60 a month at 15 minutes. Calls that return no data are not charged. To post to Slack or another chat, change the message in **Pick new posts** and the URL in **Send to Discord**.",
+        "height": 720,
+        "width": 480
+      }
+    },
+    {
+      "id": "5ed50153-1697-5c00-aeef-0dc84b13a9b0",
+      "name": "Note: schedule and settings",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -20,
+        -120
+      ],
+      "parameters": {
+        "content": "## When and which subreddit\nSet the interval in **Every 15 minutes**. Set the subreddit and the webhook URL in **Settings**.",
+        "height": 420,
+        "width": 420,
+        "color": 7
+      }
+    },
+    {
+      "id": "06d12676-2b33-5de6-8086-007a6fc22803",
+      "name": "Note: fetch",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        420,
+        -120
+      ],
+      "parameters": {
+        "content": "## Read the newest posts\nOne EveryInfra call per run. If it fails, it is tried up to 3 times.",
+        "height": 420,
+        "width": 220,
+        "color": 7
+      }
+    },
+    {
+      "id": "d54a9dd9-9298-5074-90da-c22c86dc44cd",
+      "name": "Note: pick",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        660,
+        -120
+      ],
+      "parameters": {
+        "content": "## Keep only new posts\nThe first published run only saves ids. A test run previews the 3 newest posts. No posts at all (wrong subreddit name) stops the run with an error.",
+        "height": 420,
+        "width": 220,
+        "color": 7
+      }
+    },
+    {
+      "id": "96f56e32-95a9-550b-b2fe-2862b2fb2443",
+      "name": "Every 15 minutes",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        20,
+        100
+      ],
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 15
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "01ca79c4-4543-593a-bc86-ed9149765b43",
+      "name": "Settings",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        100
+      ],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "822e2dc9-823f-54b7-8ef0-720d8dbd0f46",
+              "name": "subreddit",
+              "type": "string",
+              "value": "LocalLLaMA"
+            },
+            {
+              "id": "660b705e-58ff-5422-a95b-1d3b561b68f3",
+              "name": "discord_webhook_url",
+              "type": "string",
+              "value": "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE"
+            }
+          ]
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "bd89bca1-28c3-542d-a63f-7f35b594d5f4",
+      "name": "Get newest posts",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        460,
+        100
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.everyinfra.com/api/v1/social",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "trend-digest-n8n/0.1"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ platform: \"reddit\", action: \"subreddit_posts\", params: { subreddit: $json.subreddit, sort: \"newest\" } }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "credential-id",
+          "name": "EveryInfra API key"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "67ab0683-192a-5154-9833-2a9340c850ab",
+      "name": "Pick new posts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        700,
+        100
+      ],
+      "parameters": {
+        "jsCode": "// Compare the newest posts with the ids saved in workflow static data.\n// n8n saves static data only for runs of the published workflow, not for test runs in the editor.\nconst memory = $getWorkflowStaticData('global');\nconst subreddit = String($('Settings').first().json.subreddit).replace(/^\\/?r\\//i, '');\n// Keep real posts only. For a subreddit that does not exist, the API returns one status row\n// without a title or link.\nconst posts = ($input.first().json.results || []).filter(post => post.id && post.url && post.title);\nif (posts.length === 0) {\n  throw new Error(`No posts came back for r/${subreddit}. Check the subreddit name in Settings.`);\n}\nconst testRun = $execution.mode === 'test';\n\nlet toSend;\nif (testRun) {\n  toSend = posts.slice(0, 3); // preview only; saved ids stay as they are\n} else if (!Array.isArray(memory.seenIds)) {\n  memory.seenIds = posts.map(post => post.id); // first published run: save ids, send nothing\n  return [];\n} else {\n  const seen = new Set(memory.seenIds);\n  toSend = posts.filter(post => !seen.has(post.id));\n}\nif (toSend.length === 0) {\n  return []; // nothing new: nothing is sent\n}\n\n// One message. Discord allows at most 10 embeds, and one call returns at most 10 posts.\nconst embeds = toSend.slice(0, 10).map(post => ({\n  title: (post.title || '').slice(0, 256),\n  url: post.url,\n  color: 0x0ACAB5,\n  description: `${post.like_count ?? 0} upvotes · ${post.comment_count ?? 0} comments`,\n}));\nconst content = testRun ? `Test run: newest posts in r/${subreddit}` : `New in r/${subreddit}`;\nreturn [{ json: {\n  payload: { content: content.slice(0, 2000), embeds, allowed_mentions: { parse: [] } },\n  ids: testRun ? [] : posts.map(post => post.id), // saved by \"Remember sent posts\"\n} }];\n"
+      }
+    },
+    {
+      "id": "9b9f34b2-520a-54f5-b79a-48689ce8ca83",
+      "name": "Send to Discord",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        920,
+        100
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('Settings').first().json.discord_webhook_url }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.payload) }}",
+        "options": {}
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "id": "8c9966ca-d1e2-5c6a-859c-99b5d9fd4afc",
+      "name": "Remember sent posts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1140,
+        100
+      ],
+      "parameters": {
+        "jsCode": "// Runs only after Discord accepted the message, so a failed send is retried next run.\nconst memory = $getWorkflowStaticData('global');\nconst ids = $('Pick new posts').first().json.ids || [];\n// Keep the newest 500 ids so the memory stays small.\nmemory.seenIds = [...ids, ...(memory.seenIds || [])]\n  .filter((id, i, all) => all.indexOf(id) === i)\n  .slice(0, 500);\nreturn [];\n"
+      }
+    },
+    {
+      "id": "0af799b0-59e1-5a39-bf79-d10ba15a947d",
+      "name": "Note: save",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        880,
+        -120
+      ],
+      "parameters": {
+        "content": "## Send, then save ids\nIds are saved only after Discord accepts the message, so a failed send is sent again next run.",
+        "width": 460,
+        "height": 420,
+        "color": 7
+      }
+    }
+  ],
+  "connections": {
+    "Every 15 minutes": {
+      "main": [
+        [
+          {
+            "node": "Settings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Settings": {
+      "main": [
+        [
+          {
+            "node": "Get newest posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get newest posts": {
+      "main": [
+        [
+          {
+            "node": "Pick new posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pick new posts": {
+      "main": [
+        [
+          {
+            "node": "Send to Discord",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send to Discord": {
+      "main": [
+        [
+          {
+            "node": "Remember sent posts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": []
+}

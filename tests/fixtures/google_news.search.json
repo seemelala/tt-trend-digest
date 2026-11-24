@@ -1,0 +1,224 @@
+{
+ "id": "req_fixture",
+ "platform": "google_news",
+ "action": "search",
+ "results": [
+  {
+   "rank": 1,
+   "title": "Banks Have Had It Up to Here With Your AI Agent",
+   "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+   "source": "WIRED",
+   "text": "Wells Fargo is set to enact an updated agreement with millions of customers, specifically about AI agents, starting on Tuesday.",
+   "published_at": "2026-11-22T11:00:00Z",
+   "image_url": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/master/w_2560%2Cc_limit/GettyImages-2285133719.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 2,
+   "title": "Apple Risks Losing the AI Agent War With an Outdated Playbook",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-11-22/apple-s-ai-agent-war-early-2027-product-plans-and-iphone-duo-face-unlock-review",
+   "source": "Bloomberg.com",
+   "published_at": "2026-11-22T15:00:01Z",
+   "image_url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/id8L83joVcw4/v0/-1x-1.webp",
+   "platform": "google_news"
+  },
+  {
+   "rank": 3,
+   "title": "The first agentic AI Black Friday is off to a rocky start",
+   "url": "https://www.businessinsider.com/ai-agents-holiday-shopping-not-yet-trusted-consumers-retailers",
+   "source": "Business Insider",
+   "text": "AI agents were poised to do a lot of holiday shopping this year, but retailers and customers aren't yet ready to trust the tech.",
+   "published_at": "2026-11-22T12:10:00Z",
+   "image_url": "https://i.insider.com/6b00c30173f126f9eccb91fa?width=700",
+   "platform": "google_news"
+  },
+  {
+   "rank": 4,
+   "title": "Only 5% of insurers and banks achieve AI agents maturity despite 59% adoption",
+   "url": "https://beinsure.com/news/insurers-and-banks-achieve-ai-agents-maturity/",
+   "source": "Beinsure",
+   "text": "Only 5% of financial services firms have achieved enterprise-wide agentic AI maturity, despite 59% piloting or deploying multi-agent systems ...",
+   "published_at": "2026-11-22T13:58:37Z",
+   "image_url": "https://beinsure.com/wp-content/uploads/2026/11/1-63.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 5,
+   "title": "AI agents design an entirely new CPU architecture from scratch, startup claims — Frostbite posts 4.59x the performance per watt of an in-order core in pre-silicon tests",
+   "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+   "source": "Tom's Hardware",
+   "text": "AI agents design an entirely new CPU architecture from scratch, startup claims — Frostbite posts 4.59x the performance per watt of an in-order ...",
+   "published_at": "2026-11-22T13:00:00Z",
+   "image_url": "https://cdn.mos.cms.futurecdn.net/E6ZGdHQ5GTZE5a3yPzPScR.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 6,
+   "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+   "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+   "source": "The Decoder",
+   "published_at": "2026-11-22T15:15:48Z",
+   "image_url": "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 7,
+   "title": "China-linked hackers used AI agents to exploit a MONAI Label zero-day, Amazon says",
+   "url": "https://startupfortune.com/china-linked-hackers-used-ai-agents-to-exploit-a-monai-label-zero-day-amazon-says/",
+   "source": "Startup Fortune",
+   "text": "Amazon says China-linked hackers used autonomous Cairn AI agents to exploit a zero-day in MONAI Label, gaining root on East Asian university ...",
+   "published_at": "2026-11-22T13:07:30Z",
+   "image_url": "https://startupfortune.com/wp-content/uploads/2026/11/cairn-amazon-monai-label.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 8,
+   "title": "Palo Alto in talks to acquire Israeli AI cyber startup Terra in deal that could exceed $500 million",
+   "url": "https://www.calcalistech.com/ctechnews/article/4nq9tjogn",
+   "source": "CTech",
+   "text": "Founded in 2024, Terra develops technology that uses artificial intelligence agents to conduct automated penetration testing, continuously ...",
+   "published_at": "2026-11-22T12:36:00Z",
+   "image_url": "https://pic1.calcalist.co.il/picserver3/crop_images/2025/09/15/r1eqlIrsxx/r1eqlIrsxx_0_0_2000_1333_0_large.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 9,
+   "title": "Banks Ban AI Agents, Shift Bot Liability to Customers",
+   "url": "https://www.techbuzz.ai/articles/banks-ban-ai-agents-shift-bot-liability-to-customers",
+   "source": "The Tech Buzz",
+   "text": "Major US banks block third-party AI bots from accounts, warn users of liability.",
+   "published_at": "2026-11-22T11:33:36Z",
+   "image_url": "https://www.techbuzz.ai/cdn-cgi/image/width=1200,quality=85,format=auto,fit=cover/https://charming-card-d91ad3487b.media.strapiapp.com/large_banks_ban_ai_agents_shift_bot_liability_to_customers_81e1753114.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 10,
+   "title": "Anthropic's advice for AI agents: Don't copy the org chart",
+   "url": "https://digg.com/ai/0kqohhmb",
+   "source": "Digg",
+   "text": "The company recommends testing fewer subagents, citing frequent quality gains and often lower costs and latency in enterprise comparisons.",
+   "published_at": "2026-11-22T12:05:26Z",
+   "image_url": "https://cdn.digg.com/cdn-cgi/image/width=3840,quality=85,format=auto/editorial-story-images/380f7d77-c026-4954-a147-0cb4fd5e79f2/1f13747d-857a-526a-8872-687f34b1b86e.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 11,
+   "title": "Wells Fargo warns customers that third-party AI agents are used at their own risk",
+   "url": "https://cryptobriefing.com/wells-fargo-ai-agents-at-your-own-risk/",
+   "source": "Crypto Briefing",
+   "published_at": "2026-11-22T11:09:07Z",
+   "image_url": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/22060858/library-wells-fargo-warns-customers-that-third-party-ai-agents-a-800x450.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 12,
+   "title": "Frostbite CPU Was Designed End to End by AI Agents, and Architect Labs Claims 4.59x the Perf/W of an In-Order Core",
+   "url": "https://hwbusters.com/news/frostbite-cpu-was-designed-end-to-end-by-ai-agents-and-architect-labs-claims-4-59x-the-perf-w-of-an-in-order-core/",
+   "source": "Hardware Busters",
+   "text": "The Frostbite CPU from Architect Labs was designed end to end by AI agents, and claims 4.59x the perf/W of an in-order core in pre-silicon ...",
+   "published_at": "2026-11-22T13:10:16Z",
+   "image_url": "https://hwbusters.com/wp-content/uploads/2026/11/frostbite-cpu-hero.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 13,
+   "title": "Alex Gallego, CEO at Redpanda, on AI Agents & Kill Switches",
+   "url": "https://aimagazine.com/articles/alex-gallego-founder-ceo-at-redpanda-on",
+   "source": "AI Magazine",
+   "text": "Alex Gallego, Founder & CEO at Redpanda breaks down Stuxnet, the Hugging Face incident, AI kill switches and what it all means for autonomous ...",
+   "published_at": "2026-11-22T09:06:49Z",
+   "image_url": "https://assets.bizclikmedia.net/553/fd611603b11f1586680827aed47d7d91:fb9e2b74b2960ec1ecae61ea9032c26b/alex-gallego-headshot-full.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 14,
+   "title": "Global Platforms Restrict External AI Access",
+   "url": "https://www.chosun.com/english/industry-en/2026/11/23/SY3FLO3RZVEAZFKR26MSMRSZFQ/",
+   "source": "조선일보",
+   "published_at": "2026-11-22T15:36:45Z",
+   "image_url": "https://www.chosun.com/resizer/v2/F2XQNHKOHRCNREI44KQFS5LQ7E.jpg?auth=b9c9e4a1bad552a4d71a451449bcc18c17d446d32b4a51e13572d28cbdbf57c7&width=616",
+   "platform": "google_news"
+  },
+  {
+   "rank": 15,
+   "title": "“It is a rollercoaster ride”: Angie Jones of the Agentic AI Foundation on keeping up with AI agents",
+   "url": "https://thenewstack.io/junior-developers-ai-agents-block/",
+   "source": "The New Stack",
+   "text": "Angie Jones of the Agentic AI Foundation and Goose tells The New Stack why using AI agents and building agents others can depend on are ...",
+   "published_at": "2026-11-21T22:01:47Z",
+   "image_url": "https://cdn.thenewstack.io/media/2026/11/86d487dd-thumbnail-21-1024x576.png",
+   "platform": "google_news"
+  },
+  {
+   "rank": 16,
+   "title": "Billionaire Tech Investor Philippe Laffont Just Loaded Up on These 4 AI Stocks",
+   "url": "https://www.fool.com/investing/2026/11/22/billionaire-tech-investor-philippe-laffont-just-loaded-up-on-these-4-ai-stocks/",
+   "source": "The Motley Fool",
+   "text": "Laffont was busy buying shares of agentic AI stocks in Q3. Philippe Laffont of Coatue Management was busy rebalancing his portfolio in Q3. ...",
+   "published_at": "2026-11-22T10:55:02Z",
+   "image_url": "https://cdn.content.foolcdn.com/images/1umn9qeh/production/f9535e3cd26dbc543e8677f51f288bfbb1e7fcef-2000x1125.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 17,
+   "title": "Microsoft Ignite 2026 puts AI agents at the centre of enterprise computing",
+   "url": "https://www.tech-critter.com/microsoft-ignite-2026-announcements/",
+   "source": "Tech Critter",
+   "published_at": "2026-11-22T14:11:33Z",
+   "image_url": "https://www.tech-critter.com/wp-content/uploads/2026/11/Microsoft-Ignite-2026-scaled.webp",
+   "platform": "google_news"
+  },
+  {
+   "rank": 18,
+   "title": "Wells Fargo warns customers: AI agents are used at their own risk",
+   "url": "https://mezha.net/eng/news/mezha-663ceaea01924ddecd9e4ee5_wells_fargo_warns/",
+   "source": "Mezha.net",
+   "text": "The bank's new terms put the warning plainly: “Your use of any AI Agent is AT YOUR OWN RISK.” AI agents automate online tasks and click on ...",
+   "published_at": "2026-11-22T11:12:12Z",
+   "image_url": "https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3751589-b09ee3045c61.jpg",
+   "platform": "google_news"
+  },
+  {
+   "rank": 19,
+   "title": "FIOR AI Gateway Completes NCSC Cyber Resilience Assessment With No Unmet Security Claims",
+   "url": "https://www.cybersecurity-insiders.com/fior-ai-gateway-completes-ncsc-cyber-resilience-assessment-with-no-unmet-security-claims/",
+   "source": "Cybersecurity Insiders",
+   "text": "FIOR, a provider of identity and enforcement technology for AI, has announced that its AI Gateway has successfully completed a Cyber Resilience ...",
+   "published_at": "2026-11-22T10:27:53Z",
+   "image_url": "https://www.cybersecurity-insiders.com/wp-content/uploads/Futuristic-Cybersecurity-Shield-and-Checklist-1-696x392.png",
+   "platform": "google_news"
+  },
+  {
+   "rank": 20,
+   "title": "Google built a giant fake internet called Mirror Dimension to safely test its AI agents",
+   "url": "https://www.theindianpanorama.news/google-built-a-giant-fake-internet-called-mirror-dimension-to-safely-test-its-ai-agents/",
+   "source": "The Indian Panorama",
+   "published_at": "2026-11-22T13:16:00Z",
+   "image_url": "https://www.theindianpanorama.news/wp-content/uploads/2026/11/Untitled-94.jpg",
+   "platform": "google_news"
+  }
+ ],
+ "count": 20,
+ "billing": {
+  "charged": true,
+  "credits": 57,
+  "cny": 0.0057,
+  "amount": {
+   "credits": 57,
+   "base": "USD",
+   "amount": 0.00079167,
+   "display": {
+    "USD": 0.000792,
+    "CNY": 0.005299
+   },
+   "per_1k": {
+    "USD": 0.791667,
+    "CNY": 5.298899
+   },
+   "rate_source": "live"
+  },
+  "charged_usd": 0.000792,
+  "list_price_credits": 57,
+  "tier_credits": 57
+ }
+}

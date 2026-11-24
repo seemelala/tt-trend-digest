@@ -1,0 +1,29 @@
+# 中文预设：微博热搜、抖音热榜、GitHub 趋势。
+# 用法：python -m trend_digest --config presets/zh.toml
+# 想默认用它，在 .github/workflows/digest.yml 里把命令改成上面这行，或者把本文件内容复制进 digest.toml。
+# 每个 [[sources]] 每次运行调用一次接口。
+
+language = "zh"
+timezone = "Asia/Shanghai"
+title = "EveryInfra 热点简报"
+site_url = ""            # 填你的 GitHub Pages 地址，简报里会多一个「网页存档」按钮
+max_items = 12
+llm_model = "gemini-3.6-flash"   # 只有设置了 LLM_API_KEY 才会用到
+
+[[sources]]
+use = "weibo/trending"
+# params = { board = "tech" }   # 分类榜：hot（默认总榜）、society、entertainment、life、sports、tech、acg
+limit = 4
+
+[[sources]]
+use = "douyin/trending"
+limit = 4
+
+[[sources]]
+use = "github/trending"
+limit = 4
+
+# 小红书热榜：每千次 $5.56，比其他来源贵，默认不开。需要时去掉下面三行的 #。
+# [[sources]]
+# use = "xiaohongshu/trending"
+# limit = 3

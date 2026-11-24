@@ -1,0 +1,174 @@
+{
+ "id": "req_fixture",
+ "platform": "github",
+ "action": "trending",
+ "results": [
+  {
+   "rank": 1,
+   "full_name": "elementalsouls/Claude-BugHunter",
+   "owner_username": "elementalsouls",
+   "name": "Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "platform": "github"
+  },
+  {
+   "rank": 2,
+   "full_name": "obra/superpowers",
+   "owner_username": "obra",
+   "name": "superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "platform": "github"
+  },
+  {
+   "rank": 3,
+   "full_name": "HKUDS/CLI-Anything",
+   "owner_username": "HKUDS",
+   "name": "CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "platform": "github"
+  },
+  {
+   "rank": 4,
+   "full_name": "jingyaogong/minimind",
+   "owner_username": "jingyaogong",
+   "name": "minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "platform": "github"
+  },
+  {
+   "rank": 5,
+   "full_name": "cursor/plugins",
+   "owner_username": "cursor",
+   "name": "plugins",
+   "url": "https://github.com/cursor/plugins",
+   "description": "Cursor plugin specification and official plugins",
+   "platform": "github"
+  },
+  {
+   "rank": 6,
+   "full_name": "firecrawl/firecrawl",
+   "owner_username": "firecrawl",
+   "name": "firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "platform": "github"
+  },
+  {
+   "rank": 7,
+   "full_name": "nginx/nginx",
+   "owner_username": "nginx",
+   "name": "nginx",
+   "url": "https://github.com/nginx/nginx",
+   "description": "The official NGINX Open Source repository.",
+   "platform": "github"
+  },
+  {
+   "rank": 8,
+   "full_name": "openvinotoolkit/openvino",
+   "owner_username": "openvinotoolkit",
+   "name": "openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "platform": "github"
+  },
+  {
+   "rank": 9,
+   "full_name": "cathrynlavery/diagram-design",
+   "owner_username": "cathrynlavery",
+   "name": "diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "platform": "github"
+  },
+  {
+   "rank": 10,
+   "full_name": "mvanhorn/last30days-skill",
+   "owner_username": "mvanhorn",
+   "name": "last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "platform": "github"
+  },
+  {
+   "rank": 11,
+   "full_name": "google-labs-code/stitch-skills",
+   "owner_username": "google-labs-code",
+   "name": "stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "platform": "github"
+  },
+  {
+   "rank": 12,
+   "full_name": "mjmirza/app-store-compliance",
+   "owner_username": "mjmirza",
+   "name": "app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+   "platform": "github"
+  },
+  {
+   "rank": 13,
+   "full_name": "Tracer-Cloud/opensre",
+   "owner_username": "Tracer-Cloud",
+   "name": "opensre",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "description": "The open-source agent for CI/CD reliability.",
+   "platform": "github"
+  },
+  {
+   "rank": 14,
+   "full_name": "toeverything/AFFiNE",
+   "owner_username": "toeverything",
+   "name": "AFFiNE",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+   "platform": "github"
+  },
+  {
+   "rank": 15,
+   "full_name": "XiaoYouChR/Ghost-Downloader-3",
+   "owner_username": "XiaoYouChR",
+   "name": "Ghost-Downloader-3",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "description": "The only downloader you need. 下载器的集大成者。",
+   "platform": "github"
+  },
+  {
+   "rank": 16,
+   "full_name": "zhouxiaoka/autoclip",
+   "owner_username": "zhouxiaoka",
+   "name": "autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+   "platform": "github"
+  }
+ ],
+ "count": 16,
+ "billing": {
+  "charged": true,
+  "credits": 58,
+  "cny": 0.0058,
+  "amount": {
+   "credits": 58,
+   "base": "USD",
+   "amount": 0.00080556,
+   "display": {
+    "USD": 0.000806,
+    "CNY": 0.005392
+   },
+   "per_1k": {
+    "USD": 0.805556,
+    "CNY": 5.391862
+   },
+   "rate_source": "live"
+  },
+  "charged_usd": 0.000806,
+  "list_price_credits": 58,
+  "tier_credits": 58
+ }
+}

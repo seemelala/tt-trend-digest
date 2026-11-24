@@ -1,0 +1,402 @@
+{
+ "id": "req_fixture",
+ "platform": "reddit",
+ "action": "trending_posts",
+ "results": [
+  {
+   "id": "1y26ptc",
+   "url": "https://www.reddit.com/r/HighStrangeness/comments/1y26ptc/legit_reptilian_behind_nyc_mayor_mamdani_at_press/",
+   "title": "Legit Reptilian behind NYC Mayor Mamdani at Press Conference 11/21/26",
+   "author_username": "Ok_Pay1535",
+   "community": "HighStrangeness",
+   "like_count": 20432,
+   "comment_count": 5136,
+   "posted_at": "2026-11-21T20:29:41.112000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2206t",
+   "url": "https://www.reddit.com/r/funny/comments/1y2206t/why_do_they_have_to_stand_to_play_gta6/",
+   "title": "Why do they have to stand to play gta6",
+   "author_username": "coddiwomplecactus",
+   "community": "funny",
+   "like_count": 30164,
+   "comment_count": 4046,
+   "posted_at": "2026-11-21T17:08:45.007000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/au2znh4tzz2i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2psjp",
+   "url": "https://www.reddit.com/r/interestingasfuck/comments/1y2psjp/the_funeral_for_a_tigress_that_birthed_29_cubs/",
+   "title": "The funeral for a tigress that birthed 29 cubs and helped rebuild their population in a national park in India.",
+   "author_username": "Due-Championship444",
+   "community": "interestingasfuck",
+   "like_count": 12503,
+   "comment_count": 98,
+   "posted_at": "2026-11-22T13:51:08.561000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/3b2uqndk563i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y24a4g",
+   "url": "https://www.reddit.com/r/pcmasterrace/comments/1y24a4g/were_waiting/",
+   "title": "We're waiting . . .",
+   "author_username": "Disastrous_Glove_494",
+   "community": "pcmasterrace",
+   "like_count": 37258,
+   "comment_count": 2953,
+   "posted_at": "2026-11-21T18:44:55.434000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y282mu",
+   "url": "https://www.reddit.com/r/interesting/comments/1y282mu/a_zoo_in_china_has_given_up_trying_to_help_an/",
+   "title": "A zoo in China has given up trying to help an overweight leopard lose weight",
+   "author_username": "EsiNotFound",
+   "community": "interesting",
+   "like_count": 40873,
+   "comment_count": 2864,
+   "posted_at": "2026-11-21T21:30:31.185000+00:00",
+   "domain": "reddit.com",
+   "image_urls": [
+    "https://i.redd.it/0abrwvrla13i1.jpeg",
+    "https://i.redd.it/zkfoax3ma13i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y26xnc",
+   "url": "https://www.reddit.com/r/CFB/comments/1y26xnc/postgame_thread_nebraska_defeats_ohio_state_3128/",
+   "title": "[Postgame Thread] Nebraska Defeats Ohio State 31-28",
+   "text": "Box Score by ESPN\n\nTeam\n\n1\n\n2\n\n3\n\n4\n\nT\n\nOhio State\n\n7\n\n7\n\n7\n\n7\n\n28\n\nNebraska\n\n7\n\n14\n\n0\n\n10\n\n31",
+   "author_username": "CFB_Referee",
+   "community": "CFB",
+   "like_count": 8147,
+   "comment_count": 2613,
+   "posted_at": "2026-11-21T20:39:14.217000+00:00",
+   "domain": "self.CFB",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y235zw",
+   "url": "https://www.reddit.com/r/interestingasfuck/comments/1y235zw/footage_captures_the_moment_tanzanias_newly/",
+   "title": "Footage captures the moment Tanzania’s newly commissioned Sh120.56 billion passenger vessel, MV New Mwanza, struck Bismarck Rocks",
+   "author_username": "SAXENAJIKAGUPTGYAN",
+   "community": "interestingasfuck",
+   "like_count": 14773,
+   "comment_count": 2493,
+   "posted_at": "2026-11-21T17:58:39.218000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2q5in",
+   "url": "https://www.reddit.com/r/mildlyinteresting/comments/1y2q5in/the_toilet_at_mcds_was_piped_to_the_hot_water/",
+   "title": "The toilet at McDs was piped to the hot water",
+   "author_username": "Moleskin21",
+   "community": "mildlyinteresting",
+   "like_count": 9290,
+   "comment_count": 976,
+   "posted_at": "2026-11-22T14:07:47.272000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/qpt0h5cj863i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2osjo",
+   "url": "https://www.reddit.com/r/todayilearned/comments/1y2osjo/til_that_the_only_known_group_photo_of_the/",
+   "title": "TIL that the only known group photo of the original Grand Theft Auto development team came from a 1997 pre-release press kit sent to gaming magazines, none of which bothered to publish it because nobody predicted the game would become a hit.",
+   "author_username": "Adventurous-Root",
+   "community": "todayilearned",
+   "like_count": 8413,
+   "comment_count": 419,
+   "posted_at": "2026-11-22T13:00:22.843000+00:00",
+   "domain": "gamehistory.org",
+   "external_link": "https://gamehistory.org/grand-theft-auto-1-development-team/",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2nbcu",
+   "url": "https://www.reddit.com/r/Damnthatsinteresting/comments/1y2nbcu/playing_doom_on_a_stirling_engine_powered_computer/",
+   "title": "Playing Doom on a Stirling engine powered computer",
+   "author_username": "HomeNowWTF",
+   "community": "Damnthatsinteresting",
+   "like_count": 9841,
+   "comment_count": 209,
+   "posted_at": "2026-11-22T11:34:16.146000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y28tss",
+   "url": "https://www.reddit.com/r/classicwow/comments/1y28tss/blizzard_is_now_removing_blue_drops_from_leveling/",
+   "title": "Blizzard is now removing blue drops from leveling dungeon bosses, and it's not a good sign",
+   "author_username": "TimewarpingSeaTurtle",
+   "community": "classicwow",
+   "like_count": 4897,
+   "comment_count": 2314,
+   "posted_at": "2026-11-21T22:04:11.460000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/cbgix0glf13i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2d2v6",
+   "url": "https://www.reddit.com/r/AskReddit/comments/1y2d2v6/who_is_an_example_of_someone_who_was_a_hero_but/",
+   "title": "Who is an example of someone who was a \"hero, but lived long enough to be a villain\"?",
+   "author_username": "nunezcabezadevaca",
+   "community": "AskReddit",
+   "like_count": 3279,
+   "comment_count": 2243,
+   "posted_at": "2026-11-22T01:32:14.108000+00:00",
+   "domain": "self.AskReddit",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2nsjf",
+   "url": "https://www.reddit.com/r/memes/comments/1y2nsjf/if_only_we_had_time_to_do_something/",
+   "title": "if only we had time to do something",
+   "author_username": "REAL__NOWHEREMAN",
+   "community": "memes",
+   "like_count": 9469,
+   "comment_count": 649,
+   "posted_at": "2026-11-22T12:02:50.743000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/zczcsl73m53i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2mmcq",
+   "url": "https://www.reddit.com/r/wallstreetbets/comments/1y2mmcq/this_is_sadly_true/",
+   "title": "This is sadly true…",
+   "author_username": "tsalaita",
+   "community": "wallstreetbets",
+   "like_count": 9278,
+   "comment_count": 198,
+   "posted_at": "2026-11-22T10:50:36.789000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/ugizebwc953i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2jbpi",
+   "url": "https://www.reddit.com/r/formula1/comments/1y2jbpi/max_verstappen_on_george_russell_in_the_press/",
+   "title": "Max Verstappen on George Russell in the press conference: \"The thing is, he speaks a lot next to the track, and honestly, for me, it doesn't really bother me because he's so far below my level that it doesn't really make any sense for me anyway to try and challenge that. So it doesn't bother me.",
+   "author_username": "ICumCoffee",
+   "community": "formula1",
+   "like_count": 21738,
+   "comment_count": 2219,
+   "posted_at": "2026-11-22T07:18:56.897000+00:00",
+   "domain": "streamable.com",
+   "external_link": "https://streamable.com/7x0u6x",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2db17",
+   "url": "https://www.reddit.com/r/GTA6/comments/1y2db17/will_life_stay_this_simple_forever_if_i_never_go/",
+   "title": "Will life stay this simple forever if I never go pick up Lucia?",
+   "author_username": "ZeektheFeek",
+   "community": "GTA6",
+   "like_count": 24403,
+   "comment_count": 2190,
+   "posted_at": "2026-11-22T01:44:13.106000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/ef4ufjlvj23i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y26w2a",
+   "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1y26w2a/how_to_not_take_out_a_gaming_laptop_out_of_its_box/",
+   "title": "How to not take out a gaming laptop out of its box",
+   "author_username": "dey27",
+   "community": "mildlyinfuriating",
+   "like_count": 21739,
+   "comment_count": 2002,
+   "posted_at": "2026-11-21T20:37:17.358000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y25tcc",
+   "url": "https://www.reddit.com/r/PS5/comments/1y25tcc/naughty_dogs_world_design_director_ive_made_video/",
+   "title": "Naughty Dog’s world design director: “I've made video games for 19 years and GTA VI appears to me as a Bugatti Veyron would to a nervous Victorian child.”",
+   "author_username": "Ember57",
+   "community": "PS5",
+   "like_count": 18431,
+   "comment_count": 1965,
+   "posted_at": "2026-11-21T19:50:45.582000+00:00",
+   "domain": "tech.yahoo.com",
+   "external_link": "https://tech.yahoo.com/gaming/articles/naughty-dog-dev-stunned-gta-163545024.html",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y20eyr",
+   "url": "https://www.reddit.com/r/MadeMeSmile/comments/1y20eyr/ive_lost_over_75_stone_in_a_healthy_way/",
+   "title": "I've lost over 7.5 Stone in a healthy way",
+   "author_username": "Dependent-Green-7900",
+   "community": "MadeMeSmile",
+   "like_count": 89874,
+   "comment_count": 1513,
+   "posted_at": "2026-11-21T16:01:43.172000+00:00",
+   "domain": "reddit.com",
+   "image_urls": [
+    "https://i.redd.it/ql9hpiaynz2i1.jpeg",
+    "https://i.redd.it/7icvonaynz2i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y24qwi",
+   "url": "https://www.reddit.com/r/PourTea/comments/1y24qwi/she_said_what_we_all_thought/",
+   "title": "She said what we all thought.",
+   "author_username": "Lord-Notorious",
+   "community": "PourTea",
+   "like_count": 14804,
+   "comment_count": 1505,
+   "posted_at": "2026-11-21T19:04:16.610000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/g9boxj9ik03i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2b4r5",
+   "url": "https://www.reddit.com/r/science/comments/1y2b4r5/parents_who_spanked_at_age_35_had_over_twice_the/",
+   "title": "Parents who spanked at age 35 had over twice the odds of losing their temper and hitting or throwing things at their children at age 40. The findings suggest everyday spanking and anger-driven hitting may have distinct roots even as milder discipline predicts harsher aggression later on.",
+   "author_username": "mvea",
+   "community": "science",
+   "like_count": 10696,
+   "comment_count": 1410,
+   "posted_at": "2026-11-21T23:56:06.717000+00:00",
+   "domain": "psypost.org",
+   "external_link": "https://www.psypost.org/parents-who-spank-are-more-likely-to-hit-a-child-out-of-anger-years-later-study-finds/",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2ph1p",
+   "url": "https://www.reddit.com/r/videogames/comments/1y2ph1p/theres_no_limit_to_this/",
+   "title": "There's no limit to this...",
+   "author_username": "dunkzinger",
+   "community": "videogames",
+   "like_count": 5075,
+   "comment_count": 854,
+   "posted_at": "2026-11-22T13:35:10.403000+00:00",
+   "domain": "i.redd.it",
+   "image_urls": [
+    "https://i.redd.it/wx35yavp263i1.jpeg"
+   ],
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2o81r",
+   "url": "https://www.reddit.com/r/BlackPeopleofReddit/comments/1y2o81r/found_fired/",
+   "title": "Found & Fired!",
+   "author_username": "Damiana1111",
+   "community": "BlackPeopleofReddit",
+   "like_count": 6017,
+   "comment_count": 228,
+   "posted_at": "2026-11-22T12:28:20.411000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2eklt",
+   "url": "https://www.reddit.com/r/nba/comments/1y2eklt/kyle_kuzma_says_the_moon_landing_was_fake_the/",
+   "title": "Kyle Kuzma says the Moon Landing was fake: “The footage is just BS to me. Why haven't we gone back?”",
+   "author_username": "imoowhenipoo916",
+   "community": "nba",
+   "like_count": 4098,
+   "comment_count": 1360,
+   "posted_at": "2026-11-22T02:50:08.361000+00:00",
+   "domain": "streamable.com",
+   "external_link": "https://streamable.com/9kz9qe",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  },
+  {
+   "id": "1y2crvt",
+   "url": "https://www.reddit.com/r/AlbertaNow/comments/1y2crvt/prime_minister_mark_carney_refused_to_shake/",
+   "title": "Prime Minister Mark Carney REFUSED to shake Vladimir Putin's hand, instead giving him a cold stare.",
+   "author_username": "Miserable-Lizard",
+   "community": "AlbertaNow",
+   "like_count": 4995,
+   "comment_count": 1287,
+   "posted_at": "2026-11-22T01:16:35.785000+00:00",
+   "domain": "v.redd.it",
+   "platform": "reddit",
+   "next_page_token": "pt1.fixture"
+  }
+ ],
+ "next_page_token": "pt1.fixture",
+ "pagination": {
+  "page": 1,
+  "has_more": true,
+  "stop_reason": null
+ },
+ "count": 25,
+ "billing": {
+  "charged": true,
+  "credits": 40,
+  "cny": 0.004,
+  "amount": {
+   "credits": 40,
+   "base": "USD",
+   "amount": 0.00055556,
+   "display": {
+    "USD": 0.000556,
+    "CNY": 0.003719
+   },
+   "per_1k": {
+    "USD": 0.555556,
+    "CNY": 3.718526
+   },
+   "rate_source": "live"
+  },
+  "charged_usd": 0.000556,
+  "list_price_credits": 40,
+  "tier_credits": 40
+ }
+}

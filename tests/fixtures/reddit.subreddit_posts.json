@@ -1,0 +1,190 @@
+{
+ "id": "req_fixture",
+ "platform": "reddit",
+ "action": "subreddit_posts",
+ "results": [
+  {
+   "id": "1y2gxo7",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2gxo7/inkling_absolutely_rips_200_toks_decode_6700/",
+   "title": "Inkling absolutely rips. ~200 tok/s decode, ~6,700 prefill on 2x3090s",
+   "text": "",
+   "author_username": "peaster_",
+   "community": "LocalLLaMA",
+   "like_count": 345,
+   "comment_count": 83,
+   "posted_at": "2026-11-22T04:58:47.001000+00:00",
+   "flair": "Resources",
+   "domain": "reddit.com",
+   "image_urls": [
+    "https://preview.redd.it/inkling-absolutely-rips-200-tok-s-decode-6-700-prefill-on-v0-87r6r91rg33i1.png?width=640&crop=smart&auto=webp&s=d0e959282d1e6048f2c7e065d0d88375659f8872",
+    "https://i.redd.it/87r6r91rg33i1.png",
+    "https://i.redd.it/8qe0pr84i33i1.png",
+    "https://i.redd.it/usybktl6i33i1.png",
+    "https://i.redd.it/v82ucuy5i33i1.png",
+    "https://i.redd.it/c0g5lg0ai33i1.png"
+   ],
+   "platform": "reddit"
+  },
+  {
+   "id": "1y22kzn",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y22kzn/inkling2miniunbound_is_live_the_most_useful/",
+   "title": "Inkling-2-Mini-Unbound is live: the most useful uncensored Inkling 2 Mini, via conv-aware abliteration",
+   "text": "",
+   "author_username": "Turbulent-Sky5396",
+   "community": "LocalLLaMA",
+   "like_count": 342,
+   "comment_count": 88,
+   "posted_at": "2026-11-21T17:33:36.681000+00:00",
+   "flair": "Resources",
+   "domain": "i.redd.it",
+   "thumbnail_url": "https://i.redd.it/126cndu7303i1.png",
+   "image_urls": [
+    "https://i.redd.it/126cndu7303i1.png",
+    "https://preview.redd.it/inkling-2-mini-unbound-is-live-the-most-useful-uncensored-v0-126cndu7303i1.png?width=640&crop=smart&auto=webp&s=5668038dc8b6a4a7598c5d70c36f2a84b1bd7f74"
+   ],
+   "platform": "reddit"
+  },
+  {
+   "id": "1y2oe1x",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2oe1x/please_add_a_new_rule_when_you_say_i_can_run_x_at/",
+   "title": "Please add a new rule: when you say \"I can run X at Y\" you also have to say what quant/bpw/size was used.",
+   "text": "The recent surge of new models has once again spawned a litany of \"I can run X at Y posts\" without mentioning what quant/bpw/size was used.\n\nPlease make this an official subreddit rule for performance posts.\n\nEDIT: To address some of the comments raised:\n\nAdding the quant/bpw/size to the title I think is a minimal pain change that substantially informs someone scrolling by if this post actually contains an interesting development they might want to check out.\n\nIt does not address:\n\nA. Posts fiddling with sampling parameters/unrealistic test prompts to create arbitrarily high numbers.\n\nB. Posts using 0 context depth tg/pp performance at concurrency 8 with 10k context per slot to misleadingly imply actual working/long context/mid-session performance expectations.\n\nC. Countless other forms of dishonesty and misleading information. (Closed source super duper secret but definitely reflective of actual usage data sets that measure useless KLD/perplexity, using ngram-mod speculative decoding on \"repeat the input prompt verbatim\" style test numbers, or whatever magical bullshittery I don't know about.)\n\nBut the intention of the proposed rule change isn't to summarily prevent all forms of misleading information and dishonesty. If it's shit it gets downvoted, if it's REAL shit then mods will remove it.\n\nWhat the rule achieves is that it's a minimal pain way to help everyone have a better experience.\n\nFor average users, knowing a post is about a Quant well below what they consider viable saves them a lot of time to,\n\nFor mods it's a at-a-glance check to see if a post is complying with rules. Hell use an AI-bot to check it.\n\nWhether you think localllama is too far gone or not, having this one rule will help everyone have a slightly better experience at next to no cost.",
+   "author_username": "Plastic-Stress-6468",
+   "community": "LocalLLaMA",
+   "like_count": 260,
+   "comment_count": 54,
+   "posted_at": "2026-11-22T12:37:53.998000+00:00",
+   "flair": "Discussion",
+   "domain": "self.LocalLLaMA",
+   "platform": "reddit"
+  },
+  {
+   "id": "1y26hhs",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y26hhs/2_local_models_no_web_access_discover_and_program/",
+   "title": "2 local models, no Web access, discover and program a vintage Motorola 68000 device",
+   "text": "",
+   "author_username": "breksyt",
+   "community": "LocalLLaMA",
+   "like_count": 259,
+   "comment_count": 42,
+   "posted_at": "2026-11-21T20:19:09.689000+00:00",
+   "flair": "Showcase",
+   "domain": "i.redd.it",
+   "thumbnail_url": "https://i.redd.it/vmhnx7fjx03i1.jpeg",
+   "image_urls": [
+    "https://i.redd.it/vmhnx7fjx03i1.jpeg",
+    "https://preview.redd.it/2-local-models-no-web-access-discover-and-program-a-vintage-v0-vmhnx7fjx03i1.jpeg?width=640&crop=smart&auto=webp&s=68634d845e21e2e6b6e66f89adf70acd6583209b"
+   ],
+   "platform": "reddit"
+  },
+  {
+   "id": "1y22avl",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y22avl/we_made_an_uncensored_inkling_2_mini_with_0/",
+   "title": "we made an uncensored inkling 2 mini with 0% refusals, from 16.53 gb down to 8.67 gb",
+   "text": "hey, i'm Daniel from the atomic chat team. we posted our gguf quants for inkling 2 mini earlier and now we've made an uncensored version!\n\nwe removed the refusal directions with a small lora adapter and tested it against the original bf16 model. refusals went from 100% to 0% in our english test set, while keeping 98% of the original MMLU score\n\nhere are some results: test original uncensored refusals (english) 100% 0% refusals (reasoning low) 28/30 0/30 refusals (reasoning high) 26/30 0/30 MMLU 80.65% 79.15% valid tool calls 18/20 20/20\n\nwe released 3 gguf quants with the adapter baked in: quant size AD-Q4_K 16.53 GB AD-IQ3_S 13.34 GB AD-IQ2_M 8.67 GB\n\nhugging face card with quants, full measurements and a 40mb lora adapter for our existing quants: https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF\n\ngive it a try and share your results. we'd love to see how it performs on your hardware and with your agents!",
+   "author_username": "Top-Eye-8104",
+   "community": "LocalLLaMA",
+   "like_count": 128,
+   "comment_count": 25,
+   "posted_at": "2026-11-21T17:21:24.259000+00:00",
+   "flair": "New Model",
+   "domain": "self.LocalLLaMA",
+   "platform": "reddit"
+  },
+  {
+   "id": "1y2775c",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2775c/inkling2mini_quants_by_shinmegamiboson_54gb_and/",
+   "title": "Inkling-2-Mini quants by shinmegamiboson - 5.4GB and 8.9GB at higher scores than Unsloth",
+   "text": "",
+   "author_username": "tiftik",
+   "community": "LocalLLaMA",
+   "like_count": 105,
+   "comment_count": 19,
+   "posted_at": "2026-11-21T20:51:14.427000+00:00",
+   "flair": "Resources",
+   "domain": "github.com",
+   "external_link": "https://github.com/ShinMegamiBoson/lookatmyquant",
+   "platform": "reddit"
+  },
+  {
+   "id": "1y2hypn",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2hypn/ran_a_95_hour_autonomous_test_on_inkling_2_mini/",
+   "title": "Ran a 9.5 hour autonomous test on Inkling 2 Mini (Q4_K_M) on a 3060 12GB with Claude Code. It aced almost everything , its the best model at this hardware constraints.",
+   "text": "I made this post to clear up other posts saying that this model was not doing a good job for them.\n\nSpecially the hallucination rate, because mine didn't hallucinate with 5 to 6 compactions at all. And it refused every single time it didn't know instead of making something up. So, hallucination is completely 0.\n\nMy setup\n\nRTX 3060 12GB + 16GB system RAM. It barely fit.\n\nInkling 2 Mini, Unsloth UD Q4_K_M\n\nUnsloth's own llama.cpp build, since mainline doesn't support this model yet\n\n80k context\n\nAbout 14 tokens/sec generation the whole run, prompt processing around 150-250 t/s\n\nClaude Code as the harness. Auto-compaction kicked in during the run and worked fine.\n\nResults first (it finished 114 of the 162 tasks, more on that below) What Score Overall, average of all tasks 94% Hallucination traps and normal control questions 100% Tool calls 100% Long documents 100% Reasoning and math 100% Coding (hidden tests) 100% Instruction following 100% Prompt injection and safety 100% Business data questions 87% Memory 20%\n\nSome numbers in plain words:\n\nIt was asked 12 unanswerable questions and invented an answer zero times.\n\nIt made 29 tool calls, 3 of them failed, and it recovered every time. It also never touched the delete command.\n\nOf the roughly 100 questions that did have an answer, it wrongly said \"I can't answer that\" once.\n\nThe same four easy tasks at the start of the run and at the end both came out at 100%. No sign of it getting worse over 9.5 hours.\n\nWhen it said it was about 97% sure, it was right about 93% of the time. That's pretty honest.\n\nIt followed the format rules on every single answer.\n\nWhere it fell down\n\nThe business data questions were the weak spot, and it was real mistakes. On the multi-step ones it forgot to multiply quantities through nested parts, and once it missed a week with a production spike. Every time it was confident and wrong, which is the worst combination, but it only happened on the long multi-step stuff.\n\nMemory came out at 20%, and I wouldn't read much into it. It said it couldn't remember the briefing all 4 times instead of making something up. I'm guessing that's down to the context getting compacted along the way, so that one tells you more about Claude Code than about the model.\n\nNow for how the test works for anybody interested :\n\nThere are 162 tasks in total. Every one is generated by code (no public benchmarks, nothing the model could have seen in training), and every answer is checked by code too, no AI judge. The model never gets to see the answer key, and it has to write each answer to a file in a set format. It also has to follow a few standing rules the whole time (valid JSON, say how confident you are, end every explanation with the task ID), so I could see if it gets sloppy hours in.\n\nWhat the tasks are, with the kind of thing I mean:\n\nBusiness data questions (29): a fake manufacturing company with ~17 spreadsheets. \"Which 5 suppliers have the most past due money?\", \"if this part is unavailable for 8 weeks, how much revenue is at risk?\", \"build a week by week inventory balance for this component\". Some need you to go through a multi-level parts list.\n\nHallucination traps (about 20): questions that can't be answered. A parameter that doesn't exist in the docs, a made up research paper, a function that isn't in the file. Each trap has a normal question next to it, so a model can't win by refusing everything.\n\nTool calls (10): small command line tools that misbehave on purpose. Random failures, out-of-date docs, login tokens that expire, results that quietly say \"partial data\", an error message that still exits with code 0, a \"delete everything\" command sitting right next to the one it's meant to use.\n\nLong documents (19): find one code in 64k tokens of near-identical text, track who is holding an object through a long story, count events in a big log.\n\nMemory (7): a briefing at the start, then later it gets asked about it without being allowed to look again.\n\nCoding (12): write functions, or fix buggy ones, checked against hidden tests.\n\nReasoning, formatting, data extraction, prompt injection, persistence: logic puzzles, exact output formats, pulling fields out of messy invoices, text hidden in a document that tries to hijack it, 25 small questions in one task.\n\nDrift check (20): the same four easy tasks repeated 5 times through the run, to see if it gets worse the longer it works.\n\nEach task gets a score from 0 to 100% (partial credit, so getting 4 of 5 rows right is 80%). The percentages below are just the average of those.\n\nHonestly though, it's the best thing I can run on this PC right now. It's not close to anything else I've tried, and it did all of this on a 3060.\n\nIf you want to test yourself to verify my numbers message me and I will send you the repo link. It's a click and forget test so you don't even need to monitor.",
+   "author_username": "SummarizedAnu",
+   "community": "LocalLLaMA",
+   "like_count": 100,
+   "comment_count": 36,
+   "posted_at": "2026-11-22T05:57:31.645000+00:00",
+   "flair": "Showcase",
+   "domain": "self.LocalLLaMA",
+   "platform": "reddit"
+  },
+  {
+   "id": "1y25lgo",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y25lgo/strata_hy4_flash/",
+   "title": "Strata Hy4 Flash",
+   "text": "Strata have shipped Hy4 Flash support 3h ago\n\nhttps://github.com/Niko1221/Strata/releases/tag/v0.2.18",
+   "author_username": "Kruppenfield",
+   "community": "LocalLLaMA",
+   "like_count": 96,
+   "comment_count": 22,
+   "posted_at": "2026-11-21T19:41:09.317000+00:00",
+   "flair": "Resources",
+   "domain": "self.LocalLLaMA",
+   "platform": "reddit"
+  },
+  {
+   "id": "1y2pi6o",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y2pi6o/locallyai_app_caught_exfiltrating_users_ios/",
+   "title": "LocallyAI app caught exfiltrating users' iOS device IDs to remote servers",
+   "text": "",
+   "author_username": "woadwarrior",
+   "community": "LocalLLaMA",
+   "like_count": 91,
+   "comment_count": 20,
+   "posted_at": "2026-11-22T13:36:46.392000+00:00",
+   "flair": "Discussion",
+   "domain": "x.com",
+   "external_link": "https://x.com/private_llm/status/2124496262859047294",
+   "platform": "reddit"
+  },
+  {
+   "id": "1y298nv",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y298nv/an_inkling_mini_warning_pair_it_with_a_search/",
+   "title": "An Inkling Mini warning: pair it with a search provider",
+   "text": "First, this is not a dis on the model, and hopefully doesn't come across that way. I'm hugely supportive of seeing a new open weights model, especially with this interesting architecture.\n\nI think it's important to know that the general testing I have done compared to other smaller models people might use in the same VRAM class (Qwen 3.8 27B being an obvious one), Inkling seems shorter on world knowledge. And more importantly, it is WAY overconfident in its completely wrong answers, 2024 style.\n\nIt's not a surprise a smaller model has iffy world knowledge, and my tests may bias strongly - it's a standard set of questions I go through with every model, but they are my questions, it might be brilliant outside my interest space. The bigger consideration for me is the return of the \"I\"m wildly wrong but just going to roll with it\" delivery. Which to be fair, every model has, I just felt it was pretty extreme here.\n\nWhen I hook it up to a decent search, it does make the tool calls sometimes, but is still overconfident and ignores them when it should use them (the search part of my system prompt is \"Use web search tools when the task needs knowledge you don't have: current events, real-time information, unfamiliar terms, or low confidence in your memory\"). When it uses search it does well, comes back with appropriate information, and has excellent English writing style. Definitely better than Qwen on the writing for my tastes.\n\nBefore it's asked, I'm talking about the BF16 version of the weights here, this isn't quant loss. Knowledge does apply to code as well, I regularly have to guide small models into appropriate semantic usage. I haven't used Inkling on any heavy code yet but people seem enthusiastic.\n\nProbably not news worthy to many of you but we have some folks just dipping their toes in on local use, figured it was worth the call out.\n\nEdit: Since it has been asked, my standard environment is pi, I use per-project extensions and very few global, and my normal search extension is pi-exa. Unsloth studio behaved similarly, but I don't use that as much, and I don't do this kind of proving work in Visual Studio Code.",
+   "author_username": "NoFunk",
+   "community": "LocalLLaMA",
+   "like_count": 88,
+   "comment_count": 43,
+   "posted_at": "2026-11-21T22:23:35.635000+00:00",
+   "flair": "Discussion",
+   "domain": "self.LocalLLaMA",
+   "platform": "reddit"
+  }
+ ],
+ "count": 10,
+ "billing": {
+  "charged": true,
+  "credits": 40,
+  "cny": 0.004,
+  "amount": {
+   "credits": 40,
+   "base": "USD",
+   "amount": 0.00055556,
+   "display": {
+    "USD": 0.000556,
+    "CNY": 0.003719
+   },
+   "per_1k": {
+    "USD": 0.555556,
+    "CNY": 3.718526
+   },
+   "rate_source": "live"
+  },
+  "charged_usd": 0.000556,
+  "list_price_credits": 40,
+  "tier_credits": 40
+ }
+}
