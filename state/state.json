@@ -2,20 +2,31 @@
  "repository": "seemelala/tt-trend-digest",
  "seen": {
   "github:HKUDS/CLI-Anything": "2026-11-24",
+  "github:Tracer-Cloud/opensre": "2026-11-25",
+  "github:cathrynlavery/diagram-design": "2026-11-25",
   "github:cursor/plugins": "2026-11-25",
   "github:elementalsouls/Claude-BugHunter": "2026-11-24",
   "github:firecrawl/firecrawl": "2026-11-25",
+  "github:google-labs-code/stitch-skills": "2026-11-25",
   "github:jingyaogong/minimind": "2026-11-25",
+  "github:mjmirza/app-store-compliance": "2026-11-25",
+  "github:mvanhorn/last30days-skill": "2026-11-25",
+  "github:nginx/nginx": "2026-11-25",
   "github:obra/superpowers": "2026-11-24",
+  "github:openvinotoolkit/openvino": "2026-11-25",
   "gnews:21c67f84759f": "2026-11-24",
   "gnews:5707f4f4d41e": "2026-11-24",
   "gnews:a7e646a2071b": "2026-11-24",
   "gnews:be3639528db0": "2026-11-25",
+  "producthunt:adanotch": "2026-11-25",
   "producthunt:claude-code": "2026-11-24",
   "producthunt:distribution-dev": "2026-11-24",
   "producthunt:finseo-ai": "2026-11-25",
+  "producthunt:frwrd-to": "2026-11-25",
+  "producthunt:granular-build": "2026-11-25",
   "producthunt:juncts": "2026-11-25",
   "producthunt:rotara": "2026-11-25",
+  "producthunt:umami-manager": "2026-11-25",
   "producthunt:viktor": "2026-11-24",
   "reddit:1y3lqu3": "2026-11-24",
   "reddit:1y3oh22": "2026-11-24",
@@ -798,7 +809,7 @@
     "url": "https://github.com/HKUDS/CLI-Anything",
     "values": {
      "rank": 3,
-     "stars": 64861
+     "stars": 64878
     }
    },
    "github:Tracer-Cloud/opensre": {
@@ -808,7 +819,7 @@
     "url": "https://github.com/Tracer-Cloud/opensre",
     "values": {
      "rank": 13,
-     "stars": 15203
+     "stars": 15207
     }
    },
    "github:XiaoYouChR/Ghost-Downloader-3": {
@@ -818,7 +829,7 @@
     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
     "values": {
      "rank": 15,
-     "stars": 17403
+     "stars": 17423
     }
    },
    "github:cathrynlavery/diagram-design": {
@@ -828,7 +839,7 @@
     "url": "https://github.com/cathrynlavery/diagram-design",
     "values": {
      "rank": 9,
-     "stars": 72106
+     "stars": 72120
     }
    },
    "github:cursor/plugins": {
@@ -838,7 +849,7 @@
     "url": "https://github.com/cursor/plugins",
     "values": {
      "rank": 5,
-     "stars": 19235
+     "stars": 19239
     }
    },
    "github:elementalsouls/Claude-BugHunter": {
@@ -848,7 +859,7 @@
     "url": "https://github.com/elementalsouls/Claude-BugHunter",
     "values": {
      "rank": 1,
-     "stars": 21531
+     "stars": 21552
     }
    },
    "github:firecrawl/firecrawl": {
@@ -858,7 +869,7 @@
     "url": "https://github.com/firecrawl/firecrawl",
     "values": {
      "rank": 6,
-     "stars": 208976
+     "stars": 208990
     }
    },
    "github:google-labs-code/stitch-skills": {
@@ -868,7 +879,7 @@
     "url": "https://github.com/google-labs-code/stitch-skills",
     "values": {
      "rank": 11,
-     "stars": 12677
+     "stars": 12685
     }
    },
    "github:jingyaogong/minimind": {
@@ -878,7 +889,7 @@
     "url": "https://github.com/jingyaogong/minimind",
     "values": {
      "rank": 4,
-     "stars": 70257
+     "stars": 70280
     }
    },
    "github:mjmirza/app-store-compliance": {
@@ -888,7 +899,7 @@
     "url": "https://github.com/mjmirza/app-store-compliance",
     "values": {
      "rank": 12,
-     "stars": 5897
+     "stars": 5904
     }
    },
    "github:mvanhorn/last30days-skill": {
@@ -898,7 +909,7 @@
     "url": "https://github.com/mvanhorn/last30days-skill",
     "values": {
      "rank": 10,
-     "stars": 74257
+     "stars": 74268
     }
    },
    "github:nginx/nginx": {
@@ -908,7 +919,7 @@
     "url": "https://github.com/nginx/nginx",
     "values": {
      "rank": 7,
-     "stars": 33228
+     "stars": 33230
     }
    },
    "github:obra/superpowers": {
@@ -918,7 +929,7 @@
     "url": "https://github.com/obra/superpowers",
     "values": {
      "rank": 2,
-     "stars": 325855
+     "stars": 325866
     }
    },
    "github:openvinotoolkit/openvino": {
@@ -928,7 +939,7 @@
     "url": "https://github.com/openvinotoolkit/openvino",
     "values": {
      "rank": 8,
-     "stars": 12475
+     "stars": 12476
     }
    },
    "github:toeverything/AFFiNE": {
@@ -938,7 +949,7 @@
     "url": "https://github.com/toeverything/AFFiNE",
     "values": {
      "rank": 14,
-     "stars": 78018
+     "stars": 78022
     }
    },
    "github:zhouxiaoka/autoclip": {
@@ -948,7 +959,7 @@
     "url": "https://github.com/zhouxiaoka/autoclip",
     "values": {
      "rank": 16,
-     "stars": 15400
+     "stars": 15413
     }
    },
    "gnews:11e939062f8b": {
@@ -1224,11 +1235,25 @@
     "url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
     "values": {}
    },
+   "producthunt:adanotch": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Adanotch",
+    "url": "https://www.producthunt.com/products/adanotch",
+    "values": {}
+   },
    "producthunt:astrolabio": {
     "platform": "producthunt",
     "source": "producthunt/trending",
     "title": "Astrolabio",
     "url": "https://www.producthunt.com/products/astrolabio",
+    "values": {}
+   },
+   "producthunt:claude-code": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Claude Ship",
+    "url": "https://www.producthunt.com/products/claude-code",
     "values": {}
    },
    "producthunt:cullman": {
@@ -1529,6 +1554,7 @@
  "version": 1,
  "weekly_project_history": {
   "ruanyf_weekly:arunsupe/semantic-grep": "2026-11-25",
-  "ruanyf_weekly:netdata/netdata": "2026-11-25"
+  "ruanyf_weekly:netdata/netdata": "2026-11-25",
+  "ruanyf_weekly:netdcy/flowvision": "2026-11-25"
  }
 }

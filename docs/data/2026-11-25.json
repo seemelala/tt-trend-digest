@@ -4,9 +4,9 @@
  "language": "en",
  "title": "EveryInfra Trend Digest · Wed, Nov 25",
  "keywords": [
-  "hours",
-  "agents",
-  "people"
+  "agent",
+  "Claude",
+  "Code"
  ],
  "sections": [
   {
@@ -15,25 +15,11 @@
    "icon_url": "",
    "items": [
     {
-     "id": "ruanyf_weekly:arunsupe/semantic-grep",
+     "id": "ruanyf_weekly:netdcy/flowvision",
      "source": "ruanyf_weekly",
-     "title": "sgrep",
-     "url": "https://github.com/arunsupe/semantic-grep",
-     "summary": "grep 的替代品，返回语义搜索的结果。",
-     "metric_text": "周刊第 420 期",
-     "metrics": [],
-     "why": "",
-     "extra": {
-      "platform": "ruanyf_weekly",
-      "issue": 420
-     }
-    },
-    {
-     "id": "ruanyf_weekly:netdata/netdata",
-     "source": "ruanyf_weekly",
-     "title": "Netdata",
-     "url": "https://github.com/netdata/netdata",
-     "summary": "开源仪表板，在一个地方显示所有服务器和服务的状态。",
+     "title": "FlowVision",
+     "url": "https://github.com/netdcy/flowvision",
+     "summary": "macOS 的瀑布式图像浏览器。",
      "metric_text": "周刊第 420 期",
      "metrics": [],
      "why": "",
@@ -50,81 +36,185 @@
    "icon_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
    "items": [
     {
-     "id": "github:jingyaogong/minimind",
+     "id": "github:nginx/nginx",
      "source": "github/trending",
-     "title": "jingyaogong/minimind",
-     "url": "https://github.com/jingyaogong/minimind",
-     "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+     "title": "nginx/nginx",
+     "url": "https://github.com/nginx/nginx",
+     "summary": "The official NGINX Open Source repository.",
      "metrics": [
       {
        "label": "rank",
-       "value": 4,
+       "value": 7,
        "delta": null
       },
       {
        "label": "stars",
-       "value": 70257,
-       "delta": 727
+       "value": 33230,
+       "delta": 158
       }
      ],
-     "metric_text": "★ 70,257 (+727 today) · Python",
+     "metric_text": "★ 33,230 (+158 today) · C",
      "why": null,
      "extra": {
       "platform": "github",
-      "rank": 4,
+      "rank": 7,
+      "language": "C"
+     }
+    },
+    {
+     "id": "github:openvinotoolkit/openvino",
+     "source": "github/trending",
+     "title": "openvinotoolkit/openvino",
+     "url": "https://github.com/openvinotoolkit/openvino",
+     "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 8,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 12476,
+       "delta": 185
+      }
+     ],
+     "metric_text": "★ 12,476 (+185 today) · C++",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 8,
+      "language": "C++"
+     }
+    },
+    {
+     "id": "github:cathrynlavery/diagram-design",
+     "source": "github/trending",
+     "title": "cathrynlavery/diagram-design",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 9,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 72120,
+       "delta": 802
+      }
+     ],
+     "metric_text": "★ 72,120 (+802 today) · HTML",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 9,
+      "language": "HTML"
+     }
+    },
+    {
+     "id": "github:mvanhorn/last30days-skill",
+     "source": "github/trending",
+     "title": "mvanhorn/last30days-skill",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 10,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 74268,
+       "delta": 703
+      }
+     ],
+     "metric_text": "★ 74,268 (+703 today) · Python",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 10,
       "language": "Python"
      }
     },
     {
-     "id": "github:cursor/plugins",
+     "id": "github:google-labs-code/stitch-skills",
      "source": "github/trending",
-     "title": "cursor/plugins",
-     "url": "https://github.com/cursor/plugins",
-     "summary": "Cursor plugin specification and official plugins",
+     "title": "google-labs-code/stitch-skills",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
      "metrics": [
       {
        "label": "rank",
-       "value": 5,
+       "value": 11,
        "delta": null
       },
       {
        "label": "stars",
-       "value": 19235,
-       "delta": 360
+       "value": 12685,
+       "delta": 403
       }
      ],
-     "metric_text": "★ 19,235 (+360 today) · TypeScript",
+     "metric_text": "★ 12,685 (+403 today) · TypeScript",
      "why": null,
      "extra": {
       "platform": "github",
-      "rank": 5,
+      "rank": 11,
       "language": "TypeScript"
      }
     },
     {
-     "id": "github:firecrawl/firecrawl",
+     "id": "github:mjmirza/app-store-compliance",
      "source": "github/trending",
-     "title": "firecrawl/firecrawl",
-     "url": "https://github.com/firecrawl/firecrawl",
-     "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+     "title": "mjmirza/app-store-compliance",
+     "url": "https://github.com/mjmirza/app-store-compliance",
+     "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA,…",
      "metrics": [
       {
        "label": "rank",
-       "value": 6,
+       "value": 12,
        "delta": null
       },
       {
        "label": "stars",
-       "value": 208976,
-       "delta": 991
+       "value": 5904,
+       "delta": 928
       }
      ],
-     "metric_text": "★ 208,976 (+991 today) · TypeScript",
+     "metric_text": "★ 5,904 (+928 today) · Shell",
      "why": null,
      "extra": {
       "platform": "github",
-      "rank": 6,
-      "language": "TypeScript"
+      "rank": 12,
+      "language": "Shell"
+     }
+    },
+    {
+     "id": "github:Tracer-Cloud/opensre",
+     "source": "github/trending",
+     "title": "Tracer-Cloud/opensre",
+     "url": "https://github.com/Tracer-Cloud/opensre",
+     "summary": "The open-source agent for CI/CD reliability.",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 13,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 15207,
+       "delta": 398
+      }
+     ],
+     "metric_text": "★ 15,207 (+398 today) · Python",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 13,
+      "language": "Python"
      }
     }
    ]
@@ -135,11 +225,11 @@
    "icon_url": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64",
    "items": [
     {
-     "id": "producthunt:juncts",
+     "id": "producthunt:frwrd-to",
      "source": "producthunt/trending",
-     "title": "Juncts",
-     "url": "https://www.producthunt.com/products/juncts",
-     "summary": "Superhuman for your DMs, with AI that triages and drafts",
+     "title": "frwrd.to",
+     "url": "https://www.producthunt.com/products/frwrd-to",
+     "summary": "Your link in bio, sorted by your AI in one message",
      "metrics": [
       {
        "label": "rank",
@@ -154,11 +244,11 @@
      }
     },
     {
-     "id": "producthunt:finseo-ai",
+     "id": "producthunt:granular-build",
      "source": "producthunt/trending",
-     "title": "Finseo",
-     "url": "https://www.producthunt.com/products/finseo-ai",
-     "summary": "Company brain + outreach to get your brand mentioned by AI",
+     "title": "Granular.Build",
+     "url": "https://www.producthunt.com/products/granular-build",
+     "summary": "Put your AI agents to work in a visual workspace",
      "metrics": [
       {
        "label": "rank",
@@ -173,11 +263,11 @@
      }
     },
     {
-     "id": "producthunt:rotara",
+     "id": "producthunt:adanotch",
      "source": "producthunt/trending",
-     "title": "Rotara",
-     "url": "https://www.producthunt.com/products/rotara",
-     "summary": "Mac workspaces, one flick away",
+     "title": "Adanotch",
+     "url": "https://www.producthunt.com/products/adanotch",
+     "summary": "A live Dynamic Island for your MacBook notch",
      "metrics": [
       {
        "label": "rank",
@@ -190,112 +280,24 @@
      "extra": {
       "platform": "producthunt"
      }
-    }
-   ]
-  },
-  {
-   "id": "reddit",
-   "label": "Reddit · r/LocalLLaMA, r/MachineLearning",
-   "icon_url": "https://www.google.com/s2/favicons?domain=reddit.com&sz=64",
-   "items": [
-    {
-     "id": "reddit:1y4kikk",
-     "source": "reddit/subreddit_posts",
-     "title": "How the memory for 1M tokens shrank from 130TB to 890MB",
-     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4kikk/how_the_memory_for_1m_tokens_shrank_from_130tb_to/",
-     "summary": "",
-     "metrics": [
-      {
-       "label": "upvotes",
-       "value": 589,
-       "delta": null
-      },
-      {
-       "label": "comments",
-       "value": 63,
-       "delta": null
-      }
-     ],
-     "metric_text": "589 upvotes · 63 comments · r/LocalLLaMA",
-     "why": null,
-     "extra": {
-      "platform": "reddit",
-      "community": "LocalLLaMA",
-      "flair": "Discussion"
-     }
     },
     {
-     "id": "reddit:1y4atw3",
-     "source": "reddit/subreddit_posts",
-     "title": "T3 Code drama (Chinese post on X)",
-     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4atw3/t3_code_drama_chinese_post_on_x/",
-     "summary": "https://x.com/realchendahuang/status/2125153472450527440 (I personally have no idea who Theo is, but I know some people here are his fans and aren't on X, so this is probably news to them) (translated with google transl…",
+     "id": "producthunt:umami-manager",
+     "source": "producthunt/trending",
+     "title": "Umami Manager",
+     "url": "https://www.producthunt.com/products/umami-manager",
+     "summary": "Umami reports, widgets & links – native on iPhone & iPad",
      "metrics": [
       {
-       "label": "upvotes",
-       "value": 380,
-       "delta": 276
-      },
-      {
-       "label": "comments",
-       "value": 180,
+       "label": "rank",
+       "value": null,
        "delta": null
       }
      ],
-     "metric_text": "380 upvotes (+276 today) · 180 comments · r/LocalLLaMA",
+     "metric_text": "",
      "why": null,
      "extra": {
-      "platform": "reddit",
-      "community": "LocalLLaMA",
-      "flair": "Discussion"
-     }
-    },
-    {
-     "id": "reddit:t3_1y483vx",
-     "source": "reddit/subreddit_posts",
-     "title": "Arr october 2026 reviews [R]",
-     "url": "https://www.reddit.com/r/MachineLearning/comments/1y483vx/arr_october_2026_reviews_r/",
-     "summary": "Arr october cycle(NAACL and COLING) reviews are coming out in hours. talk about the reviews here",
-     "metrics": [
-      {
-       "label": "upvotes",
-       "value": 33,
-       "delta": null
-      },
-      {
-       "label": "comments",
-       "value": 122,
-       "delta": null
-      }
-     ],
-     "metric_text": "33 upvotes · 122 comments · r/r/MachineLearning",
-     "why": null,
-     "extra": {
-      "platform": "reddit",
-      "community": "r/MachineLearning"
-     }
-    }
-   ]
-  },
-  {
-   "id": "google_news",
-   "label": "Google News",
-   "icon_url": "https://www.google.com/s2/favicons?domain=news.google.com&sz=64",
-   "items": [
-    {
-     "id": "gnews:be3639528db0",
-     "source": "google_news/search",
-     "title": "Signal Moves to Block AI Agents",
-     "url": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
-     "summary": "Signal announced an update to its mobile apps on iOS and Android that seeks to curb issues with AI agents accessing private chats.",
-     "metrics": [],
-     "metric_text": "Electronic Frontier Foundation · 6h ago",
-     "why": null,
-     "extra": {
-      "platform": "google_news",
-      "outlet": "Electronic Frontier Foundation",
-      "published_at": "2026-11-24T19:43:49Z",
-      "keyword": "AI agents"
+      "platform": "producthunt"
      }
     }
    ]
@@ -303,17 +305,17 @@
  ],
  "weekly": null,
  "usage": {
-  "calls": 6,
-  "charged_usd": 0.004891,
+  "calls": 2,
+  "charged_usd": 0.002195,
   "failed": []
  },
  "index_entry": {
   "date": "2026-11-25",
   "title": "EveryInfra Trend Digest · Wed, Nov 25",
   "keywords": [
-   "hours",
-   "agents",
-   "people"
+   "agent",
+   "Claude",
+   "Code"
   ],
   "count": 12
  }
