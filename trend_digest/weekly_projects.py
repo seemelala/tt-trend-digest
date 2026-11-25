@@ -5,7 +5,7 @@ import re
 from urllib.request import urlopen
 
 SOURCE = "ruanyf_weekly"
-DAILY_LIMIT = 2
+DAILY_LIMIT = 3
 ISSUE_LOOKBACK = 6
 RAW_URL = "https://raw.githubusercontent.com/ruanyf/weekly/master/"
 ISSUE_LINK = re.compile(r"\(docs/issue-(\d+)\.md\)")

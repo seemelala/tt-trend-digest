@@ -27,7 +27,7 @@ from .sources import describe, normalize
 from .state import (mark_seen, normalize_state, previous_snapshot, prune,
                     record_snapshot, seen_ids)
 from .weekly import build_weekly
-from .weekly_projects import SOURCE as WEEKLY_PROJECT_SOURCE, recommend
+from .weekly_projects import SOURCE as WEEKLY_PROJECT_SOURCE, recommend, repo_path
 from .why import add_why
 
 
@@ -73,14 +73,34 @@ def fetch_all(config, fetch):
     return fetched, usage
 
 
-def daily_sections(config, fetched, state, today, local, exclude_ids):
+def daily_sections(config, fetched, state, today, local, exclude_ids, weekly_projects=False):
     every_item = [item for _, items in fetched for item in items]
     add_deltas(every_item, previous_snapshot(state, today))
     record_snapshot(state, today, every_item)
-    picks = pick_items(fetched, seen_ids(state, today) | set(exclude_ids or ()), config["min_items"])
-    sections = cap_total(group_sections(picks, config["language"]), config["max_items"])
+    skipped = seen_ids(state, today) | set(exclude_ids or ())
+    picks = pick_items(fetched, skipped, config["min_items"])
+    sections = group_sections(picks, config["language"])
+    if weekly_projects:
+        history = state.get("weekly_project_history", {})
+        projects = recommend(history, today, all_items(sections), exclude_ids or ())
+        projects = projects[:config["max_items"]]
+        budget = config["max_items"] - len(projects)
+        goal = min(config["min_items"], budget)
+        if len(all_items(sections)) < goal:
+            project_paths = {repo_path(item["url"]) for item in projects}
+            skipped.update(item["id"] for item in every_item if repo_path(item["url"]) in project_paths)
+            picks = pick_items(fetched, skipped, fill_to=goal)
+            sections = group_sections(picks, config["language"])
+        if projects:
+            sections.insert(0, {"id": WEEKLY_PROJECT_SOURCE, "label": "周刊项目精选",
+                                "icon_url": "", "items": projects})
+            state["weekly_project_history"] = {
+                **history, **{project["id"]: today for project in projects}
+            }
+    sections = cap_total(sections, config["max_items"])
     for item in all_items(sections):
-        describe(item, config["language"], local)
+        if item["source"] != WEEKLY_PROJECT_SOURCE:
+            describe(item, config["language"], local)
     return sections
 
 
@@ -121,7 +141,7 @@ def build_digest(config, api_key=None, state=None, now=None, llm=None, fetch=Non
     weekly list) or "weekly" (only the weekly list, no API calls; raises
     NotEnoughHistory with under 2 days of snapshots).
     exclude_ids: extra item ids to leave out, on top of the 7-day memory.
-    weekly_projects: include up to two new projects from the Chinese tech newsletter.
+    weekly_projects: include new projects from the Chinese tech newsletter.
     """
     config = resolve_config(config)
     local = local_now(now, config)
@@ -140,22 +160,12 @@ def build_digest(config, api_key=None, state=None, now=None, llm=None, fetch=Non
     messages = []
     if kind != "weekly":
         fetched, digest["usage"] = fetch_all(config, fetch)
-        digest["sections"] = daily_sections(config, fetched, state, today, local, exclude_ids)
+        digest["sections"] = daily_sections(config, fetched, state, today, local, exclude_ids,
+                                            weekly_projects)
         items = all_items(digest["sections"])
         digest["keywords"] = pick_keywords(items, llm, config["language"])
         add_why(items, llm, config["language"])
-        if weekly_projects:
-            history = state.get("weekly_project_history", {})
-            projects = recommend(history, today, items, exclude_ids or ())
-            if projects:
-                section = {"id": WEEKLY_PROJECT_SOURCE, "label": "周刊项目精选",
-                           "icon_url": "", "items": projects}
-                digest["sections"] = cap_total([section, *digest["sections"]], config["max_items"])
-                state["weekly_project_history"] = {
-                    **history, **{project["id"]: today for project in section["items"]}
-                }
-        mark_seen(state, [item for item in all_items(digest["sections"])
-                          if item["source"] != WEEKLY_PROJECT_SOURCE], today)
+        mark_seen(state, [item for item in items if item["source"] != WEEKLY_PROJECT_SOURCE], today)
         messages.append(daily_message(config, digest))
     if wants_weekly(kind, local):
         digest["weekly"] = build_weekly(state, today, config["language"])

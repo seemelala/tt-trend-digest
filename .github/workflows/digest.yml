@@ -46,7 +46,7 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
           SITE_URL: ${{ vars.SITE_URL }}
-        run: python -m trend_digest --config digest.toml --weekly-projects
+        run: python -m trend_digest --config presets/projects.toml --weekly-projects --daily-only
 
       - name: Save the web archive and state
         # Runs even when one channel failed, so the 7-day memory stays correct.

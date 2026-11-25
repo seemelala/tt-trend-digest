@@ -41,6 +41,8 @@ def parse_args(argv):
     parser.add_argument("--config", default="digest.toml")
     parser.add_argument("--weekly-projects", action="store_true",
                         help="include projects from the Chinese tech newsletter")
+    parser.add_argument("--daily-only", action="store_true",
+                        help="skip the separate Monday ranking message")
     parser.add_argument("--dry-run", action="store_true", help="print only; send and save nothing")
     parser.add_argument("--state", default=os.path.join("state", "state.json"))
     parser.add_argument("--site", default="docs", help="web archive folder (GitHub Pages)")
@@ -164,7 +166,7 @@ def run_emit(args, config):
 
 
 def run_normal(args, config):
-    digest = build(args, config, "auto")
+    digest = build(args, config, "daily" if args.daily_only else "auto")
     report_failures(digest)
     if all_failed(digest):
         log.error("Every source failed, so nothing was sent.")

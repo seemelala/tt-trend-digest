@@ -4,7 +4,7 @@ import json
 import unittest
 from unittest.mock import patch
 
-from helpers import at, fixture_fetch
+from helpers import ROOT, at, fixture_fetch
 from trend_digest.__main__ import all_failed
 from trend_digest.digest import build_digest
 from trend_digest.weekly_projects import SOURCE, projects_from_issue
@@ -80,8 +80,38 @@ class WeeklyProjectsTest(unittest.TestCase):
 
         later = build("2026-12-02", same_day["state"])
         projects = later["sections"][0]["items"]
-        self.assertEqual([item["title"] for item in projects], ["Gamma", "Delta"])
-        self.assertEqual([item["extra"]["issue"] for item in projects], [10, 9])
+        self.assertEqual([item["title"] for item in projects], ["Delta"])
+        self.assertEqual([item["extra"]["issue"] for item in projects], [9])
+
+    @patch("trend_digest.weekly_projects.read_markdown", side_effect=read_issue)
+    def test_projects_preset_reserves_three_slots_and_backfills_shortfall(self, _read_markdown):
+        config = f"{ROOT}/presets/projects.toml"
+        github = {"results": [{"full_name": f"example/repo-{i}",
+                               "url": f"https://github.com/example/repo-{i}"}
+                              for i in range(12)]}
+        producthunt = {"results": [{"name": f"Product {i}",
+                                    "url": f"https://www.producthunt.com/products/item-{i}"}
+                                   for i in range(6)]}
+
+        def build(overrides, state=None):
+            return build_digest(config, state=state, now=at("2026-11-25"),
+                                fetch=fixture_fetch(overrides), kind="daily", weekly_projects=True)
+
+        def counts(digest):
+            return {section["id"]: len(section["items"]) for section in digest["sections"]}
+
+        sources = {"github.trending": github, "producthunt.trending": producthunt}
+        regular = build(sources)
+        self.assertEqual(counts(regular), {SOURCE: 3, "github": 6, "producthunt": 3})
+        self.assertEqual(regular["usage"]["calls"], 2)
+
+        history = {SOURCE + ":example/" + name: "2026-11-24"
+                   for name in ("alpha", "beta", "gamma", "delta")}
+        without_weekly = build(sources, {"weekly_project_history": history})
+        self.assertEqual(counts(without_weekly), {"github": 8, "producthunt": 4})
+
+        without_producthunt = build({**sources, "producthunt.trending": {"results": []}})
+        self.assertEqual(counts(without_producthunt), {SOURCE: 3, "github": 9})
 
     @patch("trend_digest.weekly_projects.read_markdown", side_effect=OSError("offline"))
     def test_weekly_unavailable_keeps_normal_digest(self, _read_markdown):

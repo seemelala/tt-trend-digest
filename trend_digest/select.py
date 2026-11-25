@@ -59,7 +59,7 @@ def fill_up(picks, spare, taken, goal):
                 break
 
 
-def pick_items(fetched, skip_ids, min_items=0):
+def pick_items(fetched, skip_ids, min_items=0, *, fill_to=None):
     """`fetched` = [(source_config, items)]. Returns [(source_config, picked)]."""
     taken = set(skip_ids)
     picks, spare = [], []
@@ -69,8 +69,10 @@ def pick_items(fetched, skip_ids, min_items=0):
         chosen = fresh[:limit]
         taken.update(item["id"] for item in chosen)
         picks.append((source, chosen))
-        spare.append(fresh[limit:limit + EXTRA_PER_SOURCE])
-    fill_up(picks, spare, taken, min(min_items, sum(source["limit"] for source, _ in fetched)))
+        spare_limit = EXTRA_PER_SOURCE if fill_to is None else fill_to
+        spare.append(fresh[limit:limit + spare_limit])
+    goal = min(min_items, sum(source["limit"] for source, _ in fetched)) if fill_to is None else fill_to
+    fill_up(picks, spare, taken, goal)
     return picks
 
 

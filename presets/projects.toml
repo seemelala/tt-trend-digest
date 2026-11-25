@@ -1,0 +1,14 @@
+# 早间项目日报：周刊最多 3 条，GitHub 和 Product Hunt 缺位时互补。
+language = "en"
+timezone = "Asia/Shanghai"
+title = "EveryInfra Trend Digest"
+max_items = 12
+min_items = 12
+
+[[sources]]
+use = "github/trending"
+limit = 6
+
+[[sources]]
+use = "producthunt/trending"
+limit = 3

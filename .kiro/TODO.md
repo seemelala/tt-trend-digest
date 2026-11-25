@@ -1,22 +1,24 @@
 # 当前任务
 
-在北京时间 09:07 的现有日报中加入周刊项目精选，每日最多两条。
+把北京时间 09:07 的飞书日报收为三个项目栏目，每日目标 12 条。
 
 ## 状态
 
-- [x] 以远端 `e5e4d907` 为基线，工作流 UTC 01:07，日报日期统一使用 `Asia/Shanghai`。
-- [x] 从最近六期周刊的「工具」「资源」提取 GitHub 项目，按新到旧补足，每日最多两条。
-- [x] 日报复用飞书卡片和存档。周刊历史跨日保留，排队运行会读取当前分支状态。周刊访问失败时普通日报仍可生成。
+- [x] 日常配额为周刊 3、GitHub 6、Product Hunt 3。
+- [x] 工作流只查询两项 EveryInfra 来源，减少新闻和论坛讨论。
+- [x] GitHub 和 Product Hunt 的未推候选可补位。候选不足时允许少于 12 条。
+- [x] 定时只发一张日报，星期一也使用同一个上限。
 
 ## 阻塞 / 待确认
 
-- 待本地改动进入远端 `main`，然后用仓库的现有 Secrets 做一次飞书验收。当前仅在本地生成卡片。
+- 本地已改，待合入远端后用飞书群做真实推送验收。
 
 ## 本轮验证记录
 
-- `python3.12 -m unittest discover -s tests`：`Ran 74 tests`，`OK`。
-- `TREND_DIGEST_FIXTURES=tests/fixtures python3.12 -m trend_digest --config digest.toml --weekly-projects --dry-run --state /dev/null`：读取真实周刊，生成第 420 期两条推荐，飞书卡片一张。
+- `python3.12 -m unittest discover -s tests`：`Ran 75 tests`，`OK`。
+- `TREND_DIGEST_FIXTURES=tests/fixtures python3.12 -m trend_digest --config presets/projects.toml --weekly-projects --daily-only --dry-run --state /dev/null`：真实周刊加本地 API 样本，Product Hunt 为空时仍生成 12 条、一张飞书卡片。
+- 与远端 `0723912` 核对，补丁涉及的七个既有文件均与本地基线一致。
 
 ## 下一圈从这里开始
 
-应用本轮提交到远端后，在 Actions 手动运行 `Trend digest`，确认飞书「周刊项目精选」栏目及存档写回成功。随后检查北京时间 09:07 的 Scheduled 运行。
+把配额补丁应用到 GitHub 的 `main`，手动执行 `Trend digest` 验收飞书推送。后续观察 09:07 的定时运行。
