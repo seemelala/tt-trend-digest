@@ -1,4 +1,4 @@
-# 早间项目日报：周刊最多 3 条，GitHub 和 Product Hunt 缺位时互补。
+# 早间项目日报：周刊最多 5 条，GitHub 和 Product Hunt 缺位时互补。
 language = "en"
 timezone = "Asia/Shanghai"
 title = "EveryInfra Trend Digest"
@@ -7,8 +7,14 @@ min_items = 12
 
 [[sources]]
 use = "github/trending"
-limit = 6
+limit = 4
 
 [[sources]]
 use = "producthunt/trending"
-limit = 3
+limit = 1
+
+[[sources]]
+use = "google_news/search"
+params = { keyword = "AI agents", time_window = "day" }
+limit = 2
+backfill = false

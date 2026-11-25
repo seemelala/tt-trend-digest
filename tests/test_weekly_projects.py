@@ -7,7 +7,7 @@ from unittest.mock import patch
 from helpers import ROOT, at, fixture_fetch
 from trend_digest.__main__ import all_failed
 from trend_digest.digest import build_digest
-from trend_digest.weekly_projects import SOURCE, projects_from_issue
+from trend_digest.weekly_projects import SOURCE, projects_from_issue, recommend
 
 INDEX = """
 - 第 9 期：[旧一期](docs/issue-9.md)
@@ -37,6 +37,14 @@ NEW = """
 1、[Gamma](https://github.com/example/gamma)
 
 绘制图表。
+
+2、[Epsilon](https://github.com/example/epsilon)
+
+检查链接。
+
+3、[Zeta](https://github.com/example/zeta)
+
+整理截图。
 """
 OLD = """
 ## 工具
@@ -57,7 +65,7 @@ def read_issue(path):
 class WeeklyProjectsTest(unittest.TestCase):
     def test_parses_projects_and_issue_without_images_or_articles(self):
         items = list(projects_from_issue(NEW, 10))
-        self.assertEqual([item["title"] for item in items], ["Alpha", "Beta", "Gamma"])
+        self.assertEqual([item["title"] for item in items], ["Alpha", "Beta", "Gamma", "Epsilon", "Zeta"])
         self.assertEqual(items[0]["summary"], "分析本地日志。")
         self.assertEqual(items[0]["metric_text"], "周刊第 10 期")
 
@@ -73,6 +81,7 @@ class WeeklyProjectsTest(unittest.TestCase):
         self.assertIn("https://github.com/example/alpha", card)
         self.assertEqual(first["usage"]["calls"], 1)
         self.assertEqual(read_markdown.call_count, 2)
+        self.assertEqual(len(first["sections"][0]["items"]), 5)
 
         same_day = build("2026-11-24", first["state"])
         self.assertNotIn(SOURCE, [section["id"] for section in same_day["sections"]])
@@ -84,7 +93,7 @@ class WeeklyProjectsTest(unittest.TestCase):
         self.assertEqual([item["extra"]["issue"] for item in projects], [9])
 
     @patch("trend_digest.weekly_projects.read_markdown", side_effect=read_issue)
-    def test_projects_preset_reserves_three_slots_and_backfills_shortfall(self, _read_markdown):
+    def test_projects_preset_reserves_five_slots_and_backfills_shortfall(self, _read_markdown):
         config = f"{ROOT}/presets/projects.toml"
         github = {"results": [{"full_name": f"example/repo-{i}",
                                "url": f"https://github.com/example/repo-{i}"}
@@ -93,6 +102,9 @@ class WeeklyProjectsTest(unittest.TestCase):
                                     "url": f"https://www.producthunt.com/products/item-{i}"}
                                    for i in range(6)]}
 
+        news = {"results": [{"title": f"News {i}", "url": f"https://example.com/news-{i}"}
+                            for i in range(6)]}
+
         def build(overrides, state=None):
             return build_digest(config, state=state, now=at("2026-11-25"),
                                 fetch=fixture_fetch(overrides), kind="daily", weekly_projects=True)
@@ -100,18 +112,26 @@ class WeeklyProjectsTest(unittest.TestCase):
         def counts(digest):
             return {section["id"]: len(section["items"]) for section in digest["sections"]}
 
-        sources = {"github.trending": github, "producthunt.trending": producthunt}
+        sources = {"github.trending": github, "producthunt.trending": producthunt,
+                   "google_news.search": news}
         regular = build(sources)
-        self.assertEqual(counts(regular), {SOURCE: 3, "github": 6, "producthunt": 3})
-        self.assertEqual(regular["usage"]["calls"], 2)
+        self.assertEqual(counts(regular), {SOURCE: 5, "github": 4, "producthunt": 1, "google_news": 2})
+        self.assertEqual(regular["usage"]["calls"], 3)
 
         history = {SOURCE + ":example/" + name: "2026-11-24"
-                   for name in ("alpha", "beta", "gamma", "delta")}
+                   for name in ("alpha", "beta", "gamma", "delta", "epsilon", "zeta")}
         without_weekly = build(sources, {"weekly_project_history": history})
-        self.assertEqual(counts(without_weekly), {"github": 8, "producthunt": 4})
+        self.assertEqual(counts(without_weekly), {"github": 7, "producthunt": 3, "google_news": 2})
 
         without_producthunt = build({**sources, "producthunt.trending": {"results": []}})
-        self.assertEqual(counts(without_producthunt), {SOURCE: 3, "github": 9})
+        self.assertEqual(counts(without_producthunt), {SOURCE: 5, "github": 5, "google_news": 2})
+
+    @patch("trend_digest.weekly_projects.read_markdown", side_effect=read_issue)
+    def test_raising_quota_only_adds_two_after_three_already_sent_today(self, _read_markdown):
+        history = {SOURCE + ":example/" + name: "2026-11-25"
+                   for name in ("alpha", "beta", "gamma")}
+        projects = recommend(history, "2026-11-25", [])
+        self.assertEqual([item["title"] for item in projects], ["Epsilon", "Zeta"])
 
     @patch("trend_digest.weekly_projects.read_markdown", side_effect=OSError("offline"))
     def test_weekly_unavailable_keeps_normal_digest(self, _read_markdown):

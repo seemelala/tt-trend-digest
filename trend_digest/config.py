@@ -28,7 +28,7 @@ DEFAULTS = {
     "llm_model": "gemini-3.6-flash",
 }
 TOP_LEVEL_KEYS = set(DEFAULTS) | {"sources"}
-SOURCE_KEYS = {"use", "params", "limit", "label", "icon_url"}
+SOURCE_KEYS = {"use", "params", "limit", "label", "icon_url", "backfill"}
 
 
 class ConfigError(ValueError):
@@ -103,5 +103,11 @@ def check_source(position, source):
     if not isinstance(params, dict):
         raise ConfigError(f"{where}: params must be a table, like params = {{ key = \"value\" }}.")
     limit = check_positive_int(f"{where} limit", source.get("limit", 3))
-    return {"use": use, "params": dict(params), "limit": limit,
-            "label": source.get("label") or "", "icon_url": source.get("icon_url") or ""}
+    backfill = source.get("backfill", True)
+    if not isinstance(backfill, bool):
+        raise ConfigError(f"{where}: backfill must be true or false.")
+    checked = {"use": use, "params": dict(params), "limit": limit,
+               "label": source.get("label") or "", "icon_url": source.get("icon_url") or ""}
+    if not backfill:
+        checked["backfill"] = False
+    return checked

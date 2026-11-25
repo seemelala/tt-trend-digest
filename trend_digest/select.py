@@ -70,7 +70,7 @@ def pick_items(fetched, skip_ids, min_items=0, *, fill_to=None):
         taken.update(item["id"] for item in chosen)
         picks.append((source, chosen))
         spare_limit = EXTRA_PER_SOURCE if fill_to is None else fill_to
-        spare.append(fresh[limit:limit + spare_limit])
+        spare.append(fresh[limit:limit + spare_limit] if source.get("backfill", True) else [])
     goal = min(min_items, sum(source["limit"] for source, _ in fetched)) if fill_to is None else fill_to
     fill_up(picks, spare, taken, goal)
     return picks

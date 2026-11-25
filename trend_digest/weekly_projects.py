@@ -5,8 +5,8 @@ import re
 from urllib.request import urlopen
 
 SOURCE = "ruanyf_weekly"
-DAILY_LIMIT = 3
-ISSUE_LOOKBACK = 6
+DAILY_LIMIT = 5
+ISSUE_LOOKBACK = 12
 RAW_URL = "https://raw.githubusercontent.com/ruanyf/weekly/master/"
 ISSUE_LINK = re.compile(r"\(docs/issue-(\d+)\.md\)")
 HEADING = re.compile(r"^##[ \t]+(.+?)[ \t]*$", re.MULTILINE)
