@@ -3,6 +3,7 @@
  "seen": {
   "github:HKUDS/CLI-Anything": "2026-11-24",
   "github:Tracer-Cloud/opensre": "2026-11-25",
+  "github:XiaoYouChR/Ghost-Downloader-3": "2026-11-25",
   "github:cathrynlavery/diagram-design": "2026-11-25",
   "github:cursor/plugins": "2026-11-25",
   "github:elementalsouls/Claude-BugHunter": "2026-11-24",
@@ -14,20 +15,29 @@
   "github:nginx/nginx": "2026-11-25",
   "github:obra/superpowers": "2026-11-24",
   "github:openvinotoolkit/openvino": "2026-11-25",
+  "github:toeverything/AFFiNE": "2026-11-25",
+  "github:zhouxiaoka/autoclip": "2026-11-25",
   "gnews:21c67f84759f": "2026-11-24",
+  "gnews:4cccc58426de": "2026-11-25",
   "gnews:5707f4f4d41e": "2026-11-24",
+  "gnews:6e5f032fb046": "2026-11-25",
   "gnews:a7e646a2071b": "2026-11-24",
   "gnews:be3639528db0": "2026-11-25",
   "producthunt:adanotch": "2026-11-25",
   "producthunt:claude-code": "2026-11-24",
+  "producthunt:cullman": "2026-11-25",
   "producthunt:distribution-dev": "2026-11-24",
+  "producthunt:finer-screenshot": "2026-11-25",
   "producthunt:finseo-ai": "2026-11-25",
   "producthunt:frwrd-to": "2026-11-25",
   "producthunt:granular-build": "2026-11-25",
   "producthunt:juncts": "2026-11-25",
+  "producthunt:prates": "2026-11-25",
   "producthunt:rotara": "2026-11-25",
+  "producthunt:tday": "2026-11-25",
   "producthunt:umami-manager": "2026-11-25",
   "producthunt:viktor": "2026-11-24",
+  "producthunt:willow-voice": "2026-11-25",
   "reddit:1y3lqu3": "2026-11-24",
   "reddit:1y3oh22": "2026-11-24",
   "reddit:1y3q68f": "2026-11-24",
@@ -809,7 +819,7 @@
     "url": "https://github.com/HKUDS/CLI-Anything",
     "values": {
      "rank": 3,
-     "stars": 64878
+     "stars": 64883
     }
    },
    "github:Tracer-Cloud/opensre": {
@@ -819,7 +829,7 @@
     "url": "https://github.com/Tracer-Cloud/opensre",
     "values": {
      "rank": 13,
-     "stars": 15207
+     "stars": 15209
     }
    },
    "github:XiaoYouChR/Ghost-Downloader-3": {
@@ -829,7 +839,7 @@
     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
     "values": {
      "rank": 15,
-     "stars": 17423
+     "stars": 17434
     }
    },
    "github:cathrynlavery/diagram-design": {
@@ -839,7 +849,7 @@
     "url": "https://github.com/cathrynlavery/diagram-design",
     "values": {
      "rank": 9,
-     "stars": 72120
+     "stars": 72134
     }
    },
    "github:cursor/plugins": {
@@ -849,7 +859,7 @@
     "url": "https://github.com/cursor/plugins",
     "values": {
      "rank": 5,
-     "stars": 19239
+     "stars": 19243
     }
    },
    "github:elementalsouls/Claude-BugHunter": {
@@ -859,7 +869,7 @@
     "url": "https://github.com/elementalsouls/Claude-BugHunter",
     "values": {
      "rank": 1,
-     "stars": 21552
+     "stars": 21570
     }
    },
    "github:firecrawl/firecrawl": {
@@ -869,7 +879,7 @@
     "url": "https://github.com/firecrawl/firecrawl",
     "values": {
      "rank": 6,
-     "stars": 208990
+     "stars": 208994
     }
    },
    "github:google-labs-code/stitch-skills": {
@@ -879,7 +889,7 @@
     "url": "https://github.com/google-labs-code/stitch-skills",
     "values": {
      "rank": 11,
-     "stars": 12685
+     "stars": 12687
     }
    },
    "github:jingyaogong/minimind": {
@@ -889,7 +899,7 @@
     "url": "https://github.com/jingyaogong/minimind",
     "values": {
      "rank": 4,
-     "stars": 70280
+     "stars": 70291
     }
    },
    "github:mjmirza/app-store-compliance": {
@@ -899,7 +909,7 @@
     "url": "https://github.com/mjmirza/app-store-compliance",
     "values": {
      "rank": 12,
-     "stars": 5904
+     "stars": 5905
     }
    },
    "github:mvanhorn/last30days-skill": {
@@ -909,7 +919,7 @@
     "url": "https://github.com/mvanhorn/last30days-skill",
     "values": {
      "rank": 10,
-     "stars": 74268
+     "stars": 74276
     }
    },
    "github:nginx/nginx": {
@@ -919,7 +929,7 @@
     "url": "https://github.com/nginx/nginx",
     "values": {
      "rank": 7,
-     "stars": 33230
+     "stars": 33231
     }
    },
    "github:obra/superpowers": {
@@ -929,7 +939,7 @@
     "url": "https://github.com/obra/superpowers",
     "values": {
      "rank": 2,
-     "stars": 325866
+     "stars": 325874
     }
    },
    "github:openvinotoolkit/openvino": {
@@ -939,7 +949,7 @@
     "url": "https://github.com/openvinotoolkit/openvino",
     "values": {
      "rank": 8,
-     "stars": 12476
+     "stars": 12477
     }
    },
    "github:toeverything/AFFiNE": {
@@ -949,7 +959,7 @@
     "url": "https://github.com/toeverything/AFFiNE",
     "values": {
      "rank": 14,
-     "stars": 78022
+     "stars": 78025
     }
    },
    "github:zhouxiaoka/autoclip": {
@@ -959,8 +969,15 @@
     "url": "https://github.com/zhouxiaoka/autoclip",
     "values": {
      "rank": 16,
-     "stars": 15413
+     "stars": 15422
     }
+   },
+   "gnews:0cf954dbb313": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Cyber Resilience Plans Must Now Account for Errant AI Agents",
+    "url": "https://www.bankinfosecurity.com/cyber-resilience-plans-must-now-account-for-errant-ai-agents-a-33448",
+    "values": {}
    },
    "gnews:11e939062f8b": {
     "platform": "google_news",
@@ -1002,6 +1019,13 @@
     "source": "google_news/search",
     "title": "Qodo Advances the Autonomous Software Factory with Policy-Driven Code Approval",
     "url": "https://sdtimes.com/ai-agents/qodo-advances-the-autonomous-software-factory-with-policy-driven-code-approval/",
+    "values": {}
+   },
+   "gnews:2a630237eb53": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Zipher lands $53M to put AI agents, not data engineers, in charge of data workloads",
+    "url": "https://siliconangle.com/2026/11/24/zipher-lands-53m-to-put-ai-agents-not-data-engineers-in-charge-of-data-workloads/",
     "values": {}
    },
    "gnews:3361218e76ff": {
@@ -1079,6 +1103,13 @@
     "source": "google_news/search",
     "title": "Even the best AI agents struggle with everyday life",
     "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+    "values": {}
+   },
+   "gnews:73b013ffb467": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+    "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
     "values": {}
    },
    "gnews:7fb64c166b2f": {
@@ -1555,6 +1586,8 @@
  "weekly_project_history": {
   "ruanyf_weekly:arunsupe/semantic-grep": "2026-11-25",
   "ruanyf_weekly:netdata/netdata": "2026-11-25",
-  "ruanyf_weekly:netdcy/flowvision": "2026-11-25"
+  "ruanyf_weekly:netdcy/flowvision": "2026-11-25",
+  "ruanyf_weekly:srcbookdev/srcbook": "2026-11-25",
+  "ruanyf_weekly:wasi-master/13ft": "2026-11-25"
  }
 }

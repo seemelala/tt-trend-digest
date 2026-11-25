@@ -5,8 +5,8 @@
  "title": "EveryInfra Trend Digest · Wed, Nov 25",
  "keywords": [
   "agent",
-  "Claude",
-  "Code"
+  "Srcbook",
+  "toeverything"
  ],
  "sections": [
   {
@@ -15,11 +15,25 @@
    "icon_url": "",
    "items": [
     {
-     "id": "ruanyf_weekly:netdcy/flowvision",
+     "id": "ruanyf_weekly:wasi-master/13ft",
      "source": "ruanyf_weekly",
-     "title": "FlowVision",
-     "url": "https://github.com/netdcy/flowvision",
-     "summary": "macOS 的瀑布式图像浏览器。",
+     "title": "13ft",
+     "url": "https://github.com/wasi-master/13ft",
+     "summary": "一个开源网站，可以抓取付费墙后面的网页内容，需要自搭建。",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    },
+    {
+     "id": "ruanyf_weekly:srcbookdev/srcbook",
+     "source": "ruanyf_weekly",
+     "title": "Srcbook",
+     "url": "https://github.com/srcbookdev/srcbook",
+     "summary": "类似于 Jupyter Notebook 的网页互动式笔记本，但是适用于 TypeScript 和 JavaScript。",
      "metric_text": "周刊第 420 期",
      "metrics": [],
      "why": "",
@@ -36,184 +50,80 @@
    "icon_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
    "items": [
     {
-     "id": "github:nginx/nginx",
+     "id": "github:toeverything/AFFiNE",
      "source": "github/trending",
-     "title": "nginx/nginx",
-     "url": "https://github.com/nginx/nginx",
-     "summary": "The official NGINX Open Source repository.",
+     "title": "toeverything/AFFiNE",
+     "url": "https://github.com/toeverything/AFFiNE",
+     "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
      "metrics": [
       {
        "label": "rank",
-       "value": 7,
+       "value": 14,
        "delta": null
       },
       {
        "label": "stars",
-       "value": 33230,
-       "delta": 158
+       "value": 78025,
+       "delta": 584
       }
      ],
-     "metric_text": "★ 33,230 (+158 today) · C",
+     "metric_text": "★ 78,025 (+584 today) · TypeScript",
      "why": null,
      "extra": {
       "platform": "github",
-      "rank": 7,
-      "language": "C"
-     }
-    },
-    {
-     "id": "github:openvinotoolkit/openvino",
-     "source": "github/trending",
-     "title": "openvinotoolkit/openvino",
-     "url": "https://github.com/openvinotoolkit/openvino",
-     "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 8,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 12476,
-       "delta": 185
-      }
-     ],
-     "metric_text": "★ 12,476 (+185 today) · C++",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 8,
-      "language": "C++"
-     }
-    },
-    {
-     "id": "github:cathrynlavery/diagram-design",
-     "source": "github/trending",
-     "title": "cathrynlavery/diagram-design",
-     "url": "https://github.com/cathrynlavery/diagram-design",
-     "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 9,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 72120,
-       "delta": 802
-      }
-     ],
-     "metric_text": "★ 72,120 (+802 today) · HTML",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 9,
-      "language": "HTML"
-     }
-    },
-    {
-     "id": "github:mvanhorn/last30days-skill",
-     "source": "github/trending",
-     "title": "mvanhorn/last30days-skill",
-     "url": "https://github.com/mvanhorn/last30days-skill",
-     "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 10,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 74268,
-       "delta": 703
-      }
-     ],
-     "metric_text": "★ 74,268 (+703 today) · Python",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 10,
-      "language": "Python"
-     }
-    },
-    {
-     "id": "github:google-labs-code/stitch-skills",
-     "source": "github/trending",
-     "title": "google-labs-code/stitch-skills",
-     "url": "https://github.com/google-labs-code/stitch-skills",
-     "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 11,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 12685,
-       "delta": 403
-      }
-     ],
-     "metric_text": "★ 12,685 (+403 today) · TypeScript",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 11,
+      "rank": 14,
       "language": "TypeScript"
      }
     },
     {
-     "id": "github:mjmirza/app-store-compliance",
+     "id": "github:XiaoYouChR/Ghost-Downloader-3",
      "source": "github/trending",
-     "title": "mjmirza/app-store-compliance",
-     "url": "https://github.com/mjmirza/app-store-compliance",
-     "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA,…",
+     "title": "XiaoYouChR/Ghost-Downloader-3",
+     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+     "summary": "The only downloader you need. 下载器的集大成者。",
      "metrics": [
       {
        "label": "rank",
-       "value": 12,
+       "value": 15,
        "delta": null
       },
       {
        "label": "stars",
-       "value": 5904,
-       "delta": 928
+       "value": 17434,
+       "delta": 1092
       }
      ],
-     "metric_text": "★ 5,904 (+928 today) · Shell",
+     "metric_text": "★ 17,434 (+1,092 today) · Python",
      "why": null,
      "extra": {
       "platform": "github",
-      "rank": 12,
-      "language": "Shell"
+      "rank": 15,
+      "language": "Python"
      }
     },
     {
-     "id": "github:Tracer-Cloud/opensre",
+     "id": "github:zhouxiaoka/autoclip",
      "source": "github/trending",
-     "title": "Tracer-Cloud/opensre",
-     "url": "https://github.com/Tracer-Cloud/opensre",
-     "summary": "The open-source agent for CI/CD reliability.",
+     "title": "zhouxiaoka/autoclip",
+     "url": "https://github.com/zhouxiaoka/autoclip",
+     "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
      "metrics": [
       {
        "label": "rank",
-       "value": 13,
+       "value": 16,
        "delta": null
       },
       {
        "label": "stars",
-       "value": 15207,
-       "delta": 398
+       "value": 15422,
+       "delta": 980
       }
      ],
-     "metric_text": "★ 15,207 (+398 today) · Python",
+     "metric_text": "★ 15,422 (+980 today) · Python",
      "why": null,
      "extra": {
       "platform": "github",
-      "rank": 13,
+      "rank": 16,
       "language": "Python"
      }
     }
@@ -225,11 +135,11 @@
    "icon_url": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64",
    "items": [
     {
-     "id": "producthunt:frwrd-to",
+     "id": "producthunt:willow-voice",
      "source": "producthunt/trending",
-     "title": "frwrd.to",
-     "url": "https://www.producthunt.com/products/frwrd-to",
-     "summary": "Your link in bio, sorted by your AI in one message",
+     "title": "Willow iOS 2.0",
+     "url": "https://www.producthunt.com/products/willow-voice",
+     "summary": "No switching apps while you dictate",
      "metrics": [
       {
        "label": "rank",
@@ -244,11 +154,11 @@
      }
     },
     {
-     "id": "producthunt:granular-build",
+     "id": "producthunt:cullman",
      "source": "producthunt/trending",
-     "title": "Granular.Build",
-     "url": "https://www.producthunt.com/products/granular-build",
-     "summary": "Put your AI agents to work in a visual workspace",
+     "title": "Cullman",
+     "url": "https://www.producthunt.com/products/cullman",
+     "summary": "Faster voice agent evals, from simulation to production",
      "metrics": [
       {
        "label": "rank",
@@ -263,11 +173,11 @@
      }
     },
     {
-     "id": "producthunt:adanotch",
+     "id": "producthunt:prates",
      "source": "producthunt/trending",
-     "title": "Adanotch",
-     "url": "https://www.producthunt.com/products/adanotch",
-     "summary": "A live Dynamic Island for your MacBook notch",
+     "title": "Prates",
+     "url": "https://www.producthunt.com/products/prates",
+     "summary": "Learns how you write, then writes exactly as you would",
      "metrics": [
       {
        "label": "rank",
@@ -282,11 +192,30 @@
      }
     },
     {
-     "id": "producthunt:umami-manager",
+     "id": "producthunt:tday",
      "source": "producthunt/trending",
-     "title": "Umami Manager",
-     "url": "https://www.producthunt.com/products/umami-manager",
-     "summary": "Umami reports, widgets & links – native on iPhone & iPad",
+     "title": "tday.com",
+     "url": "https://www.producthunt.com/products/tday",
+     "summary": "AI-recorded Screen Studio style editable demos",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:finer-screenshot",
+     "source": "producthunt/trending",
+     "title": "Finer Screenshot",
+     "url": "https://www.producthunt.com/products/finer-screenshot",
+     "summary": "Add text that automatically stays readable on any background",
      "metrics": [
       {
        "label": "rank",
@@ -301,12 +230,51 @@
      }
     }
    ]
+  },
+  {
+   "id": "google_news",
+   "label": "Google News · \"AI agents\"",
+   "icon_url": "https://www.google.com/s2/favicons?domain=news.google.com&sz=64",
+   "items": [
+    {
+     "id": "gnews:6e5f032fb046",
+     "source": "google_news/search",
+     "title": "Even the best AI agents struggle with everyday life",
+     "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+     "summary": "But new research suggests that even the most advanced AI models struggle to reliably and safely navigate the messy details of people's lives.",
+     "metrics": [],
+     "metric_text": "TechCrunch · 4h ago",
+     "why": null,
+     "extra": {
+      "platform": "google_news",
+      "outlet": "TechCrunch",
+      "published_at": "2026-11-24T21:33:29Z",
+      "keyword": "AI agents"
+     }
+    },
+    {
+     "id": "gnews:4cccc58426de",
+     "source": "google_news/search",
+     "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+     "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+     "summary": "Researchers at Anthropic have developed Siren, a new honeypot test for artificial intelligence agents. The setup puts agents in realistic ...",
+     "metrics": [],
+     "metric_text": "WIRED · 10h ago",
+     "why": null,
+     "extra": {
+      "platform": "google_news",
+      "outlet": "WIRED",
+      "published_at": "2026-11-24T16:00:00Z",
+      "keyword": "AI agents"
+     }
+    }
+   ]
   }
  ],
  "weekly": null,
  "usage": {
-  "calls": 2,
-  "charged_usd": 0.002195,
+  "calls": 3,
+  "charged_usd": 0.002987,
   "failed": []
  },
  "index_entry": {
@@ -314,8 +282,8 @@
   "title": "EveryInfra Trend Digest · Wed, Nov 25",
   "keywords": [
    "agent",
-   "Claude",
-   "Code"
+   "Srcbook",
+   "toeverything"
   ],
   "count": 12
  }
