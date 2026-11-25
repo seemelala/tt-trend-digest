@@ -2,17 +2,27 @@
  "repository": "seemelala/tt-trend-digest",
  "seen": {
   "github:HKUDS/CLI-Anything": "2026-11-24",
+  "github:cursor/plugins": "2026-11-25",
   "github:elementalsouls/Claude-BugHunter": "2026-11-24",
+  "github:firecrawl/firecrawl": "2026-11-25",
+  "github:jingyaogong/minimind": "2026-11-25",
   "github:obra/superpowers": "2026-11-24",
   "gnews:21c67f84759f": "2026-11-24",
   "gnews:5707f4f4d41e": "2026-11-24",
   "gnews:a7e646a2071b": "2026-11-24",
+  "gnews:be3639528db0": "2026-11-25",
   "producthunt:claude-code": "2026-11-24",
   "producthunt:distribution-dev": "2026-11-24",
+  "producthunt:finseo-ai": "2026-11-25",
+  "producthunt:juncts": "2026-11-25",
+  "producthunt:rotara": "2026-11-25",
   "producthunt:viktor": "2026-11-24",
   "reddit:1y3lqu3": "2026-11-24",
   "reddit:1y3oh22": "2026-11-24",
-  "reddit:1y3q68f": "2026-11-24"
+  "reddit:1y3q68f": "2026-11-24",
+  "reddit:1y4atw3": "2026-11-25",
+  "reddit:1y4kikk": "2026-11-25",
+  "reddit:t3_1y483vx": "2026-11-25"
  },
  "snapshots": {
   "2026-11-24": {
@@ -779,7 +789,746 @@
      "upvotes": 6
     }
    }
+  },
+  "2026-11-25": {
+   "github:HKUDS/CLI-Anything": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "HKUDS/CLI-Anything",
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "values": {
+     "rank": 3,
+     "stars": 64861
+    }
+   },
+   "github:Tracer-Cloud/opensre": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "Tracer-Cloud/opensre",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "values": {
+     "rank": 13,
+     "stars": 15203
+    }
+   },
+   "github:XiaoYouChR/Ghost-Downloader-3": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "XiaoYouChR/Ghost-Downloader-3",
+    "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+    "values": {
+     "rank": 15,
+     "stars": 17403
+    }
+   },
+   "github:cathrynlavery/diagram-design": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "values": {
+     "rank": 9,
+     "stars": 72106
+    }
+   },
+   "github:cursor/plugins": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "values": {
+     "rank": 5,
+     "stars": 19235
+    }
+   },
+   "github:elementalsouls/Claude-BugHunter": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "elementalsouls/Claude-BugHunter",
+    "url": "https://github.com/elementalsouls/Claude-BugHunter",
+    "values": {
+     "rank": 1,
+     "stars": 21531
+    }
+   },
+   "github:firecrawl/firecrawl": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "values": {
+     "rank": 6,
+     "stars": 208976
+    }
+   },
+   "github:google-labs-code/stitch-skills": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "google-labs-code/stitch-skills",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "values": {
+     "rank": 11,
+     "stars": 12677
+    }
+   },
+   "github:jingyaogong/minimind": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "jingyaogong/minimind",
+    "url": "https://github.com/jingyaogong/minimind",
+    "values": {
+     "rank": 4,
+     "stars": 70257
+    }
+   },
+   "github:mjmirza/app-store-compliance": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "mjmirza/app-store-compliance",
+    "url": "https://github.com/mjmirza/app-store-compliance",
+    "values": {
+     "rank": 12,
+     "stars": 5897
+    }
+   },
+   "github:mvanhorn/last30days-skill": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "values": {
+     "rank": 10,
+     "stars": 74257
+    }
+   },
+   "github:nginx/nginx": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "nginx/nginx",
+    "url": "https://github.com/nginx/nginx",
+    "values": {
+     "rank": 7,
+     "stars": 33228
+    }
+   },
+   "github:obra/superpowers": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "values": {
+     "rank": 2,
+     "stars": 325855
+    }
+   },
+   "github:openvinotoolkit/openvino": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "openvinotoolkit/openvino",
+    "url": "https://github.com/openvinotoolkit/openvino",
+    "values": {
+     "rank": 8,
+     "stars": 12475
+    }
+   },
+   "github:toeverything/AFFiNE": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "toeverything/AFFiNE",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "values": {
+     "rank": 14,
+     "stars": 78018
+    }
+   },
+   "github:zhouxiaoka/autoclip": {
+    "platform": "github",
+    "source": "github/trending",
+    "title": "zhouxiaoka/autoclip",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "values": {
+     "rank": 16,
+     "stars": 15400
+    }
+   },
+   "gnews:11e939062f8b": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Anthropic’s Claude Ship tackles the pull request bottleneck created by AI coding agents",
+    "url": "https://thenewstack.io/claude-ship-automated-approvals/",
+    "values": {}
+   },
+   "gnews:19445fce904d": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Amazon Spots Apparent Open-Source AI Agent Gaining Unauthorized Access",
+    "url": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891",
+    "values": {}
+   },
+   "gnews:1b8584804032": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "OpenAI, Cisco debut tool that lets AI agents safely block vulnerability exploitation",
+    "url": "https://www.cybersecuritydive.com/news/ai-vulnerability-openai-cisco-shirudo-linux/875644/",
+    "values": {}
+   },
+   "gnews:21c67f84759f": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Amazon says hackers’ AI agents found and exploited 0-day with little human input",
+    "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+    "values": {}
+   },
+   "gnews:2775ee9161bf": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "KeyBanc’s 2026 AI x Software Survey: 24% Median ARR Growth, Only 6% at the Rule of 40, and 43% of Vendors Watching Customers Vibe Code Their Product",
+    "url": "https://www.saastr.com/keybancs-2026-ai-x-software-survey-24-growth-only-6-at-the-rule-of-40-and-43-of-vendors-watching-customers-vibe-code-their-product/",
+    "values": {}
+   },
+   "gnews:29868c6867a4": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Qodo Advances the Autonomous Software Factory with Policy-Driven Code Approval",
+    "url": "https://sdtimes.com/ai-agents/qodo-advances-the-autonomous-software-factory-with-policy-driven-code-approval/",
+    "values": {}
+   },
+   "gnews:3361218e76ff": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Fivetran and dbt Labs on the Data Stack for AI Agents | Aspects",
+    "url": "https://www.snowflake.com/en/thought-leadership/you-already-built-your-ai-stack-it-was-just-for-analytics/",
+    "values": {}
+   },
+   "gnews:40b080338730": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Pew finds AI tools miss evidence needed for religious-freedom coding",
+    "url": "https://tomorrowspublisher.today/news/pew-finds-ai-tools-miss-evidence-needed-for-religious-freedom-coding-202fa4e98bfb/",
+    "values": {}
+   },
+   "gnews:41320ee02a7e": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Open Architecture and Automated Validation Loops Boost AI Coding Correctness Significantly",
+    "url": "https://bioengineer.org/open-architecture-and-automated-validation-loops-boost-ai-coding-correctness-significantly/",
+    "values": {}
+   },
+   "gnews:42621e8bedd8": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Anthropic’s Claude Ship Lets AI Write, Review and Approve Its Own Code",
+    "url": "https://decrypt.co/383929/anthropic-claude-ship-ai-write-review-approve-own-code",
+    "values": {}
+   },
+   "gnews:4cccc58426de": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+    "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+    "values": {}
+   },
+   "gnews:5ac268291107": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Holiday shoppers let AI agents find gifts — but don't trust them with their credit cards",
+    "url": "https://qz.com/holiday-shoppers-ai-agents-gifts-checkout-payment-111726",
+    "values": {}
+   },
+   "gnews:5adec873e21c": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Wells Fargo Tells Customers They Are Responsible for AI Agents",
+    "url": "https://www.pymnts.com/news/banking/2026/wells-fargo-tells-customers-they-are-responsible-for-ai-agents/",
+    "values": {}
+   },
+   "gnews:5fc6e6053eb3": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Claude Ship puts AI at the helm of pull request approvals",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
+    "values": {}
+   },
+   "gnews:6895612260f6": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Microsoft Ignite 2026: Is Your Enterprise Ready to Let AI Agents Act?",
+    "url": "https://www.bain.com/insights/microsoft-ignite-2026/",
+    "values": {}
+   },
+   "gnews:6db800d51356": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "CrowdStrike’s Zscaler deal aims to give security teams a single kill switch for rogue AI agents",
+    "url": "https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents",
+    "values": {}
+   },
+   "gnews:6e5f032fb046": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Even the best AI agents struggle with everyday life",
+    "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+    "values": {}
+   },
+   "gnews:7fb64c166b2f": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Backboard R-CLI & Studio: Secure Enterprise AI Coding, OnPrem/Air-Gapped",
+    "url": "https://aws.amazon.com/marketplace/pp/prodview-ockdrdg72e3zy?sr=0-2&ref_=ucaf&applicationId=AWSMPContessa",
+    "values": {}
+   },
+   "gnews:80a5acb9a177": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "How Meta is using Instagram to get an ad boost from its Muse personal AI agent",
+    "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+    "values": {}
+   },
+   "gnews:80f040c73079": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "What United Airlines banning AI agents from booking flights means for your travel plans",
+    "url": "https://www.foxnews.com/tech/united-airlines-banning-ai-agents-booking-flights-means-travel-plans",
+    "values": {}
+   },
+   "gnews:94fc25d3b4c2": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Why AI Coding Tools Found a Foothold in Frontend Engineering so Quickly",
+    "url": "https://hackernoon.com/why-ai-coding-tools-found-a-foothold-in-frontend-engineering-so-quickly",
+    "values": {}
+   },
+   "gnews:955ee8c25190": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "TestSprite Launches Independent Testing Agent to Address AI Code Verification Challenges",
+    "url": "https://www.citybiz.co/article/938486/testsprite-launches-independent-testing-agent-to-address-ai-code-verification-challenges/",
+    "values": {}
+   },
+   "gnews:98021b47333b": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "DesignVerse study says AI coding tools need context",
+    "url": "https://itbrief.co.uk/story/designverse-study-says-ai-coding-tools-need-context",
+    "values": {}
+   },
+   "gnews:98cea8d04acf": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "DesignVerse says company context lifts AI use of approved code to 92%",
+    "url": "https://superpowerdaily.com/posts/designverse-says-company-context-lifts-ai-use-of-approved-code-to-92",
+    "values": {}
+   },
+   "gnews:98ec50c14d86": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Nearly half of surveyed engineers and leaders say the AI agents that write their code also review it",
+    "url": "https://venturebeat.com/technology/nearly-half-of-surveyed-engineers-and-leaders-say-the-ai-agents-that-write-their-code-also-review-it",
+    "values": {}
+   },
+   "gnews:a1bddf2a9703": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "UK financial watchdog delivers AI warning as Meta launches adapted Muse",
+    "url": "https://www.reuters.com/business/finance/ai-agents-could-trigger-financial-regulation-tech-firms-uk-watchdog-says-2026-11-24/",
+    "values": {}
+   },
+   "gnews:a3614d89239f": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "AI Agents and Dangerous Pets",
+    "url": "https://cacm.acm.org/blogcacm/ai-agents-and-dangerous-pets/",
+    "values": {}
+   },
+   "gnews:a7e646a2071b": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "AI Coding Tools Without Company Context Cost Businesses Thousands of Engineering Hours to Fix, DesignVerse Report Finds",
+    "url": "https://www.morningstar.com/news/business-wire/20261123103590/ai-coding-tools-without-company-context-cost-businesses-thousands-of-engineering-hours-to-fix-designverse-report-finds",
+    "values": {}
+   },
+   "gnews:a853a217fb30": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Anthropic Launches Claude Ship, Handing Code Review, Fixes and Approvals to AI Agents",
+    "url": "https://en.wowtale.net/2026/11/25/236159/",
+    "values": {}
+   },
+   "gnews:b6e16fd0678a": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "AI coding tools speed up development but fail to cut costs, IT leaders say",
+    "url": "https://aithority.com/machine-learning/ai-coding-tools-speed-up-development-but-fail-to-cut-costs-it-leaders-say/",
+    "values": {}
+   },
+   "gnews:be3639528db0": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Signal Moves to Block AI Agents",
+    "url": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
+    "values": {}
+   },
+   "gnews:d331fb83b9e8": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Delegate user access to AI agents with Amazon Cognito token exchange",
+    "url": "https://aws.amazon.com/blogs/security/delegate-user-access-to-ai-agents-with-amazon-cognito-token-exchange/",
+    "values": {}
+   },
+   "gnews:d82984221ff7": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Brits wary about letting AI agents make payments for them",
+    "url": "https://www.finextra.com/newsarticle/48808/brits-wary-about-letting-ai-agents-make-payments-for-them",
+    "values": {}
+   },
+   "gnews:db622d71d2a0": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Polyphonic informational health for AI agents: governing missing data, absent voices, and responsible closure",
+    "url": "https://link.springer.com/article/10.1007/s43681-026-01565-7",
+    "values": {}
+   },
+   "gnews:de6b526285ea": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "AI is moving way too fast",
+    "url": "https://www.natesilver.net/p/ai-is-moving-way-too-fast?utm_source=substack&utm_medium=email&utm_content=share&action=share",
+    "values": {}
+   },
+   "gnews:ec869ae3567a": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Ubisoft scales AI coding agents to 4,000+ developers with Unity Gateway",
+    "url": "https://www.databricks.com/customers/ubisoft/unity-gateway",
+    "values": {}
+   },
+   "gnews:ee2357a4074e": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+    "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+    "values": {}
+   },
+   "gnews:ef1acc1802f5": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Can AI Research Tools Help Code Data About Restrictions on Religion?",
+    "url": "https://www.pewresearch.org/decoded/2026/11/24/can-ai-research-tools-help-code-data-about-restrictions-on-religion/",
+    "values": {}
+   },
+   "gnews:f6e8b2ad0e78": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes",
+    "url": "https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922",
+    "values": {}
+   },
+   "producthunt:astrolabio": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Astrolabio",
+    "url": "https://www.producthunt.com/products/astrolabio",
+    "values": {}
+   },
+   "producthunt:cullman": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Cullman",
+    "url": "https://www.producthunt.com/products/cullman",
+    "values": {}
+   },
+   "producthunt:distribution-dev": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "distribution.dev",
+    "url": "https://www.producthunt.com/products/distribution-dev",
+    "values": {}
+   },
+   "producthunt:finer-screenshot": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Finer Screenshot",
+    "url": "https://www.producthunt.com/products/finer-screenshot",
+    "values": {}
+   },
+   "producthunt:finseo-ai": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Finseo",
+    "url": "https://www.producthunt.com/products/finseo-ai",
+    "values": {}
+   },
+   "producthunt:frwrd-to": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "frwrd.to",
+    "url": "https://www.producthunt.com/products/frwrd-to",
+    "values": {}
+   },
+   "producthunt:granular-build": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Granular.Build",
+    "url": "https://www.producthunt.com/products/granular-build",
+    "values": {}
+   },
+   "producthunt:hourly-journal": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Hourly Journal",
+    "url": "https://www.producthunt.com/products/hourly-journal",
+    "values": {}
+   },
+   "producthunt:juncts": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Juncts",
+    "url": "https://www.producthunt.com/products/juncts",
+    "values": {}
+   },
+   "producthunt:k-stra": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "K-Stra",
+    "url": "https://www.producthunt.com/products/k-stra",
+    "values": {}
+   },
+   "producthunt:kodak-slidetag": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Kodak SlideTag",
+    "url": "https://www.producthunt.com/products/kodak-slidetag",
+    "values": {}
+   },
+   "producthunt:prates": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Prates",
+    "url": "https://www.producthunt.com/products/prates",
+    "values": {}
+   },
+   "producthunt:rotara": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Rotara",
+    "url": "https://www.producthunt.com/products/rotara",
+    "values": {}
+   },
+   "producthunt:sparrowdesk": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "SparrowDesk Phone Calls",
+    "url": "https://www.producthunt.com/products/sparrowdesk",
+    "values": {}
+   },
+   "producthunt:tday": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "tday.com",
+    "url": "https://www.producthunt.com/products/tday",
+    "values": {}
+   },
+   "producthunt:tendor": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Tendor",
+    "url": "https://www.producthunt.com/products/tendor",
+    "values": {}
+   },
+   "producthunt:umami-manager": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Umami Manager",
+    "url": "https://www.producthunt.com/products/umami-manager",
+    "values": {}
+   },
+   "producthunt:viktor": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Viktor Code",
+    "url": "https://www.producthunt.com/products/viktor",
+    "values": {}
+   },
+   "producthunt:wellbreak": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Wellbreak",
+    "url": "https://www.producthunt.com/products/wellbreak",
+    "values": {}
+   },
+   "producthunt:willow-voice": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Willow iOS 2.0",
+    "url": "https://www.producthunt.com/products/willow-voice",
+    "values": {}
+   },
+   "reddit:1y42wm9": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "baidu/ERNIE-5.5-Flash-Preview",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y42wm9/baiduernie55flashpreview/",
+    "values": {
+     "comments": 73,
+     "upvotes": 176
+    }
+   },
+   "reddit:1y43859": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "baidu/ERNIE-5.5-Flash-Preview · Hugging Face",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y43859/baiduernie55flashpreview_hugging_face/",
+    "values": {
+     "comments": 20,
+     "upvotes": 143
+    }
+   },
+   "reddit:1y465ey": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "Yann LeCun on Dario's framing of open weight models",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y465ey/yann_lecun_on_darios_framing_of_open_weight_models/",
+    "values": {
+     "comments": 86,
+     "upvotes": 312
+    }
+   },
+   "reddit:1y48q6x": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "Will llama.cpp adopt Strata's memory management techniques, or will Strata become the preferred engine for MoE inference?",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y48q6x/will_llamacpp_adopt_stratas_memory_management/",
+    "values": {
+     "comments": 109,
+     "upvotes": 104
+    }
+   },
+   "reddit:1y4atw3": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "T3 Code drama (Chinese post on X)",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4atw3/t3_code_drama_chinese_post_on_x/",
+    "values": {
+     "comments": 180,
+     "upvotes": 380
+    }
+   },
+   "reddit:1y4gpet": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "Neon Should be distilled into the Qwen models for the ultimate brain child!",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4gpet/neon_should_be_distilled_into_the_qwen_models_for/",
+    "values": {
+     "comments": 56,
+     "upvotes": 98
+    }
+   },
+   "reddit:1y4kikk": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "How the memory for 1M tokens shrank from 130TB to 890MB",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4kikk/how_the_memory_for_1m_tokens_shrank_from_130tb_to/",
+    "values": {
+     "comments": 63,
+     "upvotes": 589
+    }
+   },
+   "reddit:1y4kxm6": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "Upcoming Models - Solar-Mini-4.5, MiniCPM5-15B-A2.5B, etc.,",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4kxm6/upcoming_models_solarmini45_minicpm515ba25b_etc/",
+    "values": {
+     "comments": 20,
+     "upvotes": 177
+    }
+   },
+   "reddit:1y4mech": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF · Hugging Face",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4mech/prismmlternarybonsai2527bgguf_hugging_face/",
+    "values": {
+     "comments": 39,
+     "upvotes": 228
+    }
+   },
+   "reddit:1y4rhws": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "Inkling Mini's bench scores improved by as much as 10% for FREE by Apple's LoopCD paper",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4rhws/inkling_minis_bench_scores_improved_by_as_much_as/",
+    "values": {
+     "comments": 16,
+     "upvotes": 100
+    }
+   },
+   "reddit:t3_1y4235p": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "labels are worth exactly a factor of two. [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1y4235p/labels_are_worth_exactly_a_factor_of_two_r/",
+    "values": {
+     "comments": 0,
+     "upvotes": 0
+    }
+   },
+   "reddit:t3_1y483vx": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "Arr october 2026 reviews [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1y483vx/arr_october_2026_reviews_r/",
+    "values": {
+     "comments": 122,
+     "upvotes": 33
+    }
+   },
+   "reddit:t3_1y4bvnq": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "CVPR supplementary material deadline extended? [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1y4bvnq/cvpr_supplementary_material_deadline_extended_d/",
+    "values": {
+     "comments": 5,
+     "upvotes": 14
+    }
+   },
+   "reddit:t3_1y4cz48": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "LLMs top tier conferences pre-review [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1y4cz48/llms_top_tier_conferences_prereview_d/",
+    "values": {
+     "comments": 6,
+     "upvotes": 0
+    }
+   },
+   "reddit:t3_1y4gbl4": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "ICLR 2027: Missed revised PDF deadline after rebuttal [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1y4gbl4/iclr_2027_missed_revised_pdf_deadline_after/",
+    "values": {
+     "comments": 4,
+     "upvotes": 0
+    }
+   },
+   "reddit:t3_1y4j958": {
+    "platform": "reddit",
+    "source": "reddit/subreddit_posts",
+    "title": "How to find signature pages in thousands of contracts with no fixed layout? (can't afford to misclassify a full contract)[D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1y4j958/how_to_find_signature_pages_in_thousands_of/",
+    "values": {
+     "comments": 7,
+     "upvotes": 0
+    }
+   }
   }
  },
- "version": 1
+ "version": 1,
+ "weekly_project_history": {
+  "ruanyf_weekly:arunsupe/semantic-grep": "2026-11-25",
+  "ruanyf_weekly:netdata/netdata": "2026-11-25"
+ }
 }

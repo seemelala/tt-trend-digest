@@ -1,0 +1,320 @@
+{
+ "version": 1,
+ "date": "2026-11-25",
+ "language": "en",
+ "title": "EveryInfra Trend Digest · Wed, Nov 25",
+ "keywords": [
+  "hours",
+  "agents",
+  "people"
+ ],
+ "sections": [
+  {
+   "id": "ruanyf_weekly",
+   "label": "周刊项目精选",
+   "icon_url": "",
+   "items": [
+    {
+     "id": "ruanyf_weekly:arunsupe/semantic-grep",
+     "source": "ruanyf_weekly",
+     "title": "sgrep",
+     "url": "https://github.com/arunsupe/semantic-grep",
+     "summary": "grep 的替代品，返回语义搜索的结果。",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    },
+    {
+     "id": "ruanyf_weekly:netdata/netdata",
+     "source": "ruanyf_weekly",
+     "title": "Netdata",
+     "url": "https://github.com/netdata/netdata",
+     "summary": "开源仪表板，在一个地方显示所有服务器和服务的状态。",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    }
+   ]
+  },
+  {
+   "id": "github",
+   "label": "GitHub trending",
+   "icon_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
+   "items": [
+    {
+     "id": "github:jingyaogong/minimind",
+     "source": "github/trending",
+     "title": "jingyaogong/minimind",
+     "url": "https://github.com/jingyaogong/minimind",
+     "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 4,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 70257,
+       "delta": 727
+      }
+     ],
+     "metric_text": "★ 70,257 (+727 today) · Python",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 4,
+      "language": "Python"
+     }
+    },
+    {
+     "id": "github:cursor/plugins",
+     "source": "github/trending",
+     "title": "cursor/plugins",
+     "url": "https://github.com/cursor/plugins",
+     "summary": "Cursor plugin specification and official plugins",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 5,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 19235,
+       "delta": 360
+      }
+     ],
+     "metric_text": "★ 19,235 (+360 today) · TypeScript",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 5,
+      "language": "TypeScript"
+     }
+    },
+    {
+     "id": "github:firecrawl/firecrawl",
+     "source": "github/trending",
+     "title": "firecrawl/firecrawl",
+     "url": "https://github.com/firecrawl/firecrawl",
+     "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": 6,
+       "delta": null
+      },
+      {
+       "label": "stars",
+       "value": 208976,
+       "delta": 991
+      }
+     ],
+     "metric_text": "★ 208,976 (+991 today) · TypeScript",
+     "why": null,
+     "extra": {
+      "platform": "github",
+      "rank": 6,
+      "language": "TypeScript"
+     }
+    }
+   ]
+  },
+  {
+   "id": "producthunt",
+   "label": "Product Hunt",
+   "icon_url": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64",
+   "items": [
+    {
+     "id": "producthunt:juncts",
+     "source": "producthunt/trending",
+     "title": "Juncts",
+     "url": "https://www.producthunt.com/products/juncts",
+     "summary": "Superhuman for your DMs, with AI that triages and drafts",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:finseo-ai",
+     "source": "producthunt/trending",
+     "title": "Finseo",
+     "url": "https://www.producthunt.com/products/finseo-ai",
+     "summary": "Company brain + outreach to get your brand mentioned by AI",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:rotara",
+     "source": "producthunt/trending",
+     "title": "Rotara",
+     "url": "https://www.producthunt.com/products/rotara",
+     "summary": "Mac workspaces, one flick away",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    }
+   ]
+  },
+  {
+   "id": "reddit",
+   "label": "Reddit · r/LocalLLaMA, r/MachineLearning",
+   "icon_url": "https://www.google.com/s2/favicons?domain=reddit.com&sz=64",
+   "items": [
+    {
+     "id": "reddit:1y4kikk",
+     "source": "reddit/subreddit_posts",
+     "title": "How the memory for 1M tokens shrank from 130TB to 890MB",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4kikk/how_the_memory_for_1m_tokens_shrank_from_130tb_to/",
+     "summary": "",
+     "metrics": [
+      {
+       "label": "upvotes",
+       "value": 589,
+       "delta": null
+      },
+      {
+       "label": "comments",
+       "value": 63,
+       "delta": null
+      }
+     ],
+     "metric_text": "589 upvotes · 63 comments · r/LocalLLaMA",
+     "why": null,
+     "extra": {
+      "platform": "reddit",
+      "community": "LocalLLaMA",
+      "flair": "Discussion"
+     }
+    },
+    {
+     "id": "reddit:1y4atw3",
+     "source": "reddit/subreddit_posts",
+     "title": "T3 Code drama (Chinese post on X)",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4atw3/t3_code_drama_chinese_post_on_x/",
+     "summary": "https://x.com/realchendahuang/status/2125153472450527440 (I personally have no idea who Theo is, but I know some people here are his fans and aren't on X, so this is probably news to them) (translated with google transl…",
+     "metrics": [
+      {
+       "label": "upvotes",
+       "value": 380,
+       "delta": 276
+      },
+      {
+       "label": "comments",
+       "value": 180,
+       "delta": null
+      }
+     ],
+     "metric_text": "380 upvotes (+276 today) · 180 comments · r/LocalLLaMA",
+     "why": null,
+     "extra": {
+      "platform": "reddit",
+      "community": "LocalLLaMA",
+      "flair": "Discussion"
+     }
+    },
+    {
+     "id": "reddit:t3_1y483vx",
+     "source": "reddit/subreddit_posts",
+     "title": "Arr october 2026 reviews [R]",
+     "url": "https://www.reddit.com/r/MachineLearning/comments/1y483vx/arr_october_2026_reviews_r/",
+     "summary": "Arr october cycle(NAACL and COLING) reviews are coming out in hours. talk about the reviews here",
+     "metrics": [
+      {
+       "label": "upvotes",
+       "value": 33,
+       "delta": null
+      },
+      {
+       "label": "comments",
+       "value": 122,
+       "delta": null
+      }
+     ],
+     "metric_text": "33 upvotes · 122 comments · r/r/MachineLearning",
+     "why": null,
+     "extra": {
+      "platform": "reddit",
+      "community": "r/MachineLearning"
+     }
+    }
+   ]
+  },
+  {
+   "id": "google_news",
+   "label": "Google News",
+   "icon_url": "https://www.google.com/s2/favicons?domain=news.google.com&sz=64",
+   "items": [
+    {
+     "id": "gnews:be3639528db0",
+     "source": "google_news/search",
+     "title": "Signal Moves to Block AI Agents",
+     "url": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
+     "summary": "Signal announced an update to its mobile apps on iOS and Android that seeks to curb issues with AI agents accessing private chats.",
+     "metrics": [],
+     "metric_text": "Electronic Frontier Foundation · 6h ago",
+     "why": null,
+     "extra": {
+      "platform": "google_news",
+      "outlet": "Electronic Frontier Foundation",
+      "published_at": "2026-11-24T19:43:49Z",
+      "keyword": "AI agents"
+     }
+    }
+   ]
+  }
+ ],
+ "weekly": null,
+ "usage": {
+  "calls": 6,
+  "charged_usd": 0.004891,
+  "failed": []
+ },
+ "index_entry": {
+  "date": "2026-11-25",
+  "title": "EveryInfra Trend Digest · Wed, Nov 25",
+  "keywords": [
+   "hours",
+   "agents",
+   "people"
+  ],
+  "count": 12
+ }
+}
