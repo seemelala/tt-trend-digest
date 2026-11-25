@@ -4,142 +4,22 @@
  "language": "en",
  "title": "EveryInfra Trend Digest · Wed, Nov 25",
  "keywords": [
-  "agent",
-  "Srcbook",
-  "toeverything"
+  "agents",
+  "model",
+  "eluna"
  ],
  "sections": [
-  {
-   "id": "ruanyf_weekly",
-   "label": "周刊项目精选",
-   "icon_url": "",
-   "items": [
-    {
-     "id": "ruanyf_weekly:wasi-master/13ft",
-     "source": "ruanyf_weekly",
-     "title": "13ft",
-     "url": "https://github.com/wasi-master/13ft",
-     "summary": "一个开源网站，可以抓取付费墙后面的网页内容，需要自搭建。",
-     "metric_text": "周刊第 420 期",
-     "metrics": [],
-     "why": "",
-     "extra": {
-      "platform": "ruanyf_weekly",
-      "issue": 420
-     }
-    },
-    {
-     "id": "ruanyf_weekly:srcbookdev/srcbook",
-     "source": "ruanyf_weekly",
-     "title": "Srcbook",
-     "url": "https://github.com/srcbookdev/srcbook",
-     "summary": "类似于 Jupyter Notebook 的网页互动式笔记本，但是适用于 TypeScript 和 JavaScript。",
-     "metric_text": "周刊第 420 期",
-     "metrics": [],
-     "why": "",
-     "extra": {
-      "platform": "ruanyf_weekly",
-      "issue": 420
-     }
-    }
-   ]
-  },
-  {
-   "id": "github",
-   "label": "GitHub trending",
-   "icon_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64",
-   "items": [
-    {
-     "id": "github:toeverything/AFFiNE",
-     "source": "github/trending",
-     "title": "toeverything/AFFiNE",
-     "url": "https://github.com/toeverything/AFFiNE",
-     "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 14,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 78025,
-       "delta": 584
-      }
-     ],
-     "metric_text": "★ 78,025 (+584 today) · TypeScript",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 14,
-      "language": "TypeScript"
-     }
-    },
-    {
-     "id": "github:XiaoYouChR/Ghost-Downloader-3",
-     "source": "github/trending",
-     "title": "XiaoYouChR/Ghost-Downloader-3",
-     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
-     "summary": "The only downloader you need. 下载器的集大成者。",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 15,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 17434,
-       "delta": 1092
-      }
-     ],
-     "metric_text": "★ 17,434 (+1,092 today) · Python",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 15,
-      "language": "Python"
-     }
-    },
-    {
-     "id": "github:zhouxiaoka/autoclip",
-     "source": "github/trending",
-     "title": "zhouxiaoka/autoclip",
-     "url": "https://github.com/zhouxiaoka/autoclip",
-     "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-     "metrics": [
-      {
-       "label": "rank",
-       "value": 16,
-       "delta": null
-      },
-      {
-       "label": "stars",
-       "value": 15422,
-       "delta": 980
-      }
-     ],
-     "metric_text": "★ 15,422 (+980 today) · Python",
-     "why": null,
-     "extra": {
-      "platform": "github",
-      "rank": 16,
-      "language": "Python"
-     }
-    }
-   ]
-  },
   {
    "id": "producthunt",
    "label": "Product Hunt",
    "icon_url": "https://www.google.com/s2/favicons?domain=producthunt.com&sz=64",
    "items": [
     {
-     "id": "producthunt:willow-voice",
+     "id": "producthunt:eluna",
      "source": "producthunt/trending",
-     "title": "Willow iOS 2.0",
-     "url": "https://www.producthunt.com/products/willow-voice",
-     "summary": "No switching apps while you dictate",
+     "title": "eluna",
+     "url": "https://www.producthunt.com/products/eluna",
+     "summary": "Period tracker for couples that explains WHY, not just WHEN",
      "metrics": [
       {
        "label": "rank",
@@ -154,11 +34,11 @@
      }
     },
     {
-     "id": "producthunt:cullman",
+     "id": "producthunt:magi-1",
      "source": "producthunt/trending",
-     "title": "Cullman",
-     "url": "https://www.producthunt.com/products/cullman",
-     "summary": "Faster voice agent evals, from simulation to production",
+     "title": "MAGI-2",
+     "url": "https://www.producthunt.com/products/magi-1",
+     "summary": "Sand AI's 480B model for cinematic video generation",
      "metrics": [
       {
        "label": "rank",
@@ -173,11 +53,11 @@
      }
     },
     {
-     "id": "producthunt:prates",
+     "id": "producthunt:truastra",
      "source": "producthunt/trending",
-     "title": "Prates",
-     "url": "https://www.producthunt.com/products/prates",
-     "summary": "Learns how you write, then writes exactly as you would",
+     "title": "TruAstra",
+     "url": "https://www.producthunt.com/products/truastra",
+     "summary": "Small practices based on your birthday + the current weather",
      "metrics": [
       {
        "label": "rank",
@@ -192,11 +72,11 @@
      }
     },
     {
-     "id": "producthunt:tday",
+     "id": "producthunt:vibecode-surf",
      "source": "producthunt/trending",
-     "title": "tday.com",
-     "url": "https://www.producthunt.com/products/tday",
-     "summary": "AI-recorded Screen Studio style editable demos",
+     "title": "VibeCode.surf",
+     "url": "https://www.producthunt.com/products/vibecode-surf",
+     "summary": "AI code editor where agents build, run and test your app",
      "metrics": [
       {
        "label": "rank",
@@ -211,11 +91,106 @@
      }
     },
     {
-     "id": "producthunt:finer-screenshot",
+     "id": "producthunt:vybe-4",
      "source": "producthunt/trending",
-     "title": "Finer Screenshot",
-     "url": "https://www.producthunt.com/products/finer-screenshot",
-     "summary": "Add text that automatically stays readable on any background",
+     "title": "Falcon by Vybe",
+     "url": "https://www.producthunt.com/products/vybe-4",
+     "summary": "Falcon analyzes your competitors for free, then gets to work",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:blink-35",
+     "source": "producthunt/trending",
+     "title": "Blink",
+     "url": "https://www.producthunt.com/products/blink-35",
+     "summary": "Describe any trade and watch Blink build it",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:koed",
+     "source": "producthunt/trending",
+     "title": "Koed",
+     "url": "https://www.producthunt.com/products/koed",
+     "summary": "Supercharged Agents!",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:qube-6",
+     "source": "producthunt/trending",
+     "title": "Qube",
+     "url": "https://www.producthunt.com/products/qube-6",
+     "summary": "An AI agent for anyone with the model of your choice",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:myclaw-3-0",
+     "source": "producthunt/trending",
+     "title": "MyClaw 3.0",
+     "url": "https://www.producthunt.com/products/myclaw-3-0",
+     "summary": "Build an always-on AI team with shared memory",
+     "metrics": [
+      {
+       "label": "rank",
+       "value": null,
+       "delta": null
+      }
+     ],
+     "metric_text": "",
+     "why": null,
+     "extra": {
+      "platform": "producthunt"
+     }
+    },
+    {
+     "id": "producthunt:fompi",
+     "source": "producthunt/trending",
+     "title": "Fompi",
+     "url": "https://www.producthunt.com/products/fompi",
+     "summary": "Personal security & privacy companion that calls out risks",
      "metrics": [
       {
        "label": "rank",
@@ -237,34 +212,34 @@
    "icon_url": "https://www.google.com/s2/favicons?domain=news.google.com&sz=64",
    "items": [
     {
-     "id": "gnews:6e5f032fb046",
+     "id": "gnews:2f73404cd348",
      "source": "google_news/search",
-     "title": "Even the best AI agents struggle with everyday life",
-     "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
-     "summary": "But new research suggests that even the most advanced AI models struggle to reliably and safely navigate the messy details of people's lives.",
+     "title": "How much do you know about your AI agents?",
+     "url": "https://sifted.eu/articles/how-much-do-you-know-about-your-ai-agents-brnd/",
+     "summary": "",
      "metrics": [],
-     "metric_text": "TechCrunch · 4h ago",
+     "metric_text": "Sifted · 41m ago",
      "why": null,
      "extra": {
       "platform": "google_news",
-      "outlet": "TechCrunch",
-      "published_at": "2026-11-24T21:33:29Z",
+      "outlet": "Sifted",
+      "published_at": "2026-11-25T09:05:26Z",
       "keyword": "AI agents"
      }
     },
     {
-     "id": "gnews:4cccc58426de",
+     "id": "gnews:e77cfbe481a0",
      "source": "google_news/search",
-     "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
-     "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
-     "summary": "Researchers at Anthropic have developed Siren, a new honeypot test for artificial intelligence agents. The setup puts agents in realistic ...",
+     "title": "Will We Learn to Trust AI Agents? My Family History Offers a Clue",
+     "url": "https://thefinancialbrand.com/news/artificial-intelligence-banking/will-we-learn-to-trust-ai-agents-my-family-history-offers-a-clue-200890",
+     "summary": "AI agents may change banking, but customers will demand visibility, control, and accountability. AI agents are beginning to move beyond ...",
      "metrics": [],
-     "metric_text": "WIRED · 10h ago",
+     "metric_text": "The Financial Brand · 2h ago",
      "why": null,
      "extra": {
       "platform": "google_news",
-      "outlet": "WIRED",
-      "published_at": "2026-11-24T16:00:00Z",
+      "outlet": "The Financial Brand",
+      "published_at": "2026-11-25T07:39:25Z",
       "keyword": "AI agents"
      }
     }
@@ -281,9 +256,9 @@
   "date": "2026-11-25",
   "title": "EveryInfra Trend Digest · Wed, Nov 25",
   "keywords": [
-   "agent",
-   "Srcbook",
-   "toeverything"
+   "agents",
+   "model",
+   "eluna"
   ],
   "count": 12
  }

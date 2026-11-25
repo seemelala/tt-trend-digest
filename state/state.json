@@ -18,25 +18,37 @@
   "github:toeverything/AFFiNE": "2026-11-25",
   "github:zhouxiaoka/autoclip": "2026-11-25",
   "gnews:21c67f84759f": "2026-11-24",
+  "gnews:2f73404cd348": "2026-11-25",
   "gnews:4cccc58426de": "2026-11-25",
   "gnews:5707f4f4d41e": "2026-11-24",
   "gnews:6e5f032fb046": "2026-11-25",
   "gnews:a7e646a2071b": "2026-11-24",
   "gnews:be3639528db0": "2026-11-25",
+  "gnews:e77cfbe481a0": "2026-11-25",
   "producthunt:adanotch": "2026-11-25",
+  "producthunt:blink-35": "2026-11-25",
   "producthunt:claude-code": "2026-11-24",
   "producthunt:cullman": "2026-11-25",
   "producthunt:distribution-dev": "2026-11-24",
+  "producthunt:eluna": "2026-11-25",
   "producthunt:finer-screenshot": "2026-11-25",
   "producthunt:finseo-ai": "2026-11-25",
+  "producthunt:fompi": "2026-11-25",
   "producthunt:frwrd-to": "2026-11-25",
   "producthunt:granular-build": "2026-11-25",
   "producthunt:juncts": "2026-11-25",
+  "producthunt:koed": "2026-11-25",
+  "producthunt:magi-1": "2026-11-25",
+  "producthunt:myclaw-3-0": "2026-11-25",
   "producthunt:prates": "2026-11-25",
+  "producthunt:qube-6": "2026-11-25",
   "producthunt:rotara": "2026-11-25",
   "producthunt:tday": "2026-11-25",
+  "producthunt:truastra": "2026-11-25",
   "producthunt:umami-manager": "2026-11-25",
+  "producthunt:vibecode-surf": "2026-11-25",
   "producthunt:viktor": "2026-11-24",
+  "producthunt:vybe-4": "2026-11-25",
   "producthunt:willow-voice": "2026-11-25",
   "reddit:1y3lqu3": "2026-11-24",
   "reddit:1y3oh22": "2026-11-24",
@@ -819,7 +831,7 @@
     "url": "https://github.com/HKUDS/CLI-Anything",
     "values": {
      "rank": 3,
-     "stars": 64883
+     "stars": 65229
     }
    },
    "github:Tracer-Cloud/opensre": {
@@ -829,7 +841,7 @@
     "url": "https://github.com/Tracer-Cloud/opensre",
     "values": {
      "rank": 13,
-     "stars": 15209
+     "stars": 15324
     }
    },
    "github:XiaoYouChR/Ghost-Downloader-3": {
@@ -839,7 +851,7 @@
     "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
     "values": {
      "rank": 15,
-     "stars": 17434
+     "stars": 17785
     }
    },
    "github:cathrynlavery/diagram-design": {
@@ -849,7 +861,7 @@
     "url": "https://github.com/cathrynlavery/diagram-design",
     "values": {
      "rank": 9,
-     "stars": 72134
+     "stars": 72467
     }
    },
    "github:cursor/plugins": {
@@ -859,7 +871,7 @@
     "url": "https://github.com/cursor/plugins",
     "values": {
      "rank": 5,
-     "stars": 19243
+     "stars": 19378
     }
    },
    "github:elementalsouls/Claude-BugHunter": {
@@ -869,7 +881,7 @@
     "url": "https://github.com/elementalsouls/Claude-BugHunter",
     "values": {
      "rank": 1,
-     "stars": 21570
+     "stars": 22099
     }
    },
    "github:firecrawl/firecrawl": {
@@ -879,7 +891,7 @@
     "url": "https://github.com/firecrawl/firecrawl",
     "values": {
      "rank": 6,
-     "stars": 208994
+     "stars": 209370
     }
    },
    "github:google-labs-code/stitch-skills": {
@@ -889,7 +901,7 @@
     "url": "https://github.com/google-labs-code/stitch-skills",
     "values": {
      "rank": 11,
-     "stars": 12687
+     "stars": 12807
     }
    },
    "github:jingyaogong/minimind": {
@@ -899,7 +911,7 @@
     "url": "https://github.com/jingyaogong/minimind",
     "values": {
      "rank": 4,
-     "stars": 70291
+     "stars": 70641
     }
    },
    "github:mjmirza/app-store-compliance": {
@@ -909,7 +921,7 @@
     "url": "https://github.com/mjmirza/app-store-compliance",
     "values": {
      "rank": 12,
-     "stars": 5905
+     "stars": 6156
     }
    },
    "github:mvanhorn/last30days-skill": {
@@ -919,7 +931,7 @@
     "url": "https://github.com/mvanhorn/last30days-skill",
     "values": {
      "rank": 10,
-     "stars": 74276
+     "stars": 74637
     }
    },
    "github:nginx/nginx": {
@@ -929,7 +941,7 @@
     "url": "https://github.com/nginx/nginx",
     "values": {
      "rank": 7,
-     "stars": 33231
+     "stars": 33290
     }
    },
    "github:obra/superpowers": {
@@ -939,7 +951,7 @@
     "url": "https://github.com/obra/superpowers",
     "values": {
      "rank": 2,
-     "stars": 325874
+     "stars": 326157
     }
    },
    "github:openvinotoolkit/openvino": {
@@ -949,7 +961,7 @@
     "url": "https://github.com/openvinotoolkit/openvino",
     "values": {
      "rank": 8,
-     "stars": 12477
+     "stars": 12549
     }
    },
    "github:toeverything/AFFiNE": {
@@ -959,7 +971,7 @@
     "url": "https://github.com/toeverything/AFFiNE",
     "values": {
      "rank": 14,
-     "stars": 78025
+     "stars": 78183
     }
    },
    "github:zhouxiaoka/autoclip": {
@@ -969,7 +981,7 @@
     "url": "https://github.com/zhouxiaoka/autoclip",
     "values": {
      "rank": 16,
-     "stars": 15422
+     "stars": 15804
     }
    },
    "gnews:0cf954dbb313": {
@@ -1007,6 +1019,13 @@
     "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
     "values": {}
    },
+   "gnews:234bed2ac435": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Three AI Agents, One Android Phone, and a Clock",
+    "url": "https://hackernoon.com/three-ai-agents-one-android-phone-and-a-clock",
+    "values": {}
+   },
    "gnews:2775ee9161bf": {
     "platform": "google_news",
     "source": "google_news/search",
@@ -1026,6 +1045,13 @@
     "source": "google_news/search",
     "title": "Zipher lands $53M to put AI agents, not data engineers, in charge of data workloads",
     "url": "https://siliconangle.com/2026/11/24/zipher-lands-53m-to-put-ai-agents-not-data-engineers-in-charge-of-data-workloads/",
+    "values": {}
+   },
+   "gnews:2f73404cd348": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "How much do you know about your AI agents?",
+    "url": "https://sifted.eu/articles/how-much-do-you-know-about-your-ai-agents-brnd/",
     "values": {}
    },
    "gnews:3361218e76ff": {
@@ -1063,6 +1089,13 @@
     "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
     "values": {}
    },
+   "gnews:4ed30de30d48": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Apple AI Agent for the Mac Surfaces in Job Ad",
+    "url": "https://www.technology.org/2026/11/25/apple-ai-agent-mac-job-listing-computer-use-macos-27-3/",
+    "values": {}
+   },
    "gnews:5ac268291107": {
     "platform": "google_news",
     "source": "google_news/search",
@@ -1082,6 +1115,13 @@
     "source": "google_news/search",
     "title": "Claude Ship puts AI at the helm of pull request approvals",
     "url": "https://www.theregister.com/ai-and-ml/2026/11/24/claude-ship-puts-ai-at-the-helm-of-pull-request-approvals/5311883",
+    "values": {}
+   },
+   "gnews:61d7b9b93401": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Dell COO Jeff Clarke Expects Internal AI Agent Use Will Double - Dell Technologies (NYSE:DELL)",
+    "url": "https://www.benzinga.com/markets/earnings/26/11/63614649/dell-coo-jeff-clarke-100000-ai-agents-inside-dell-double-90-days",
     "values": {}
    },
    "gnews:6895612260f6": {
@@ -1105,11 +1145,25 @@
     "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
     "values": {}
    },
+   "gnews:705d56278329": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Consumers weigh risks as banks warn AI agent mistakes could be customers’ liability",
+    "url": "https://news3lv.com/news/local/consumers-weigh-risks-as-banks-warn-ai-agent-mistakes-could-be-customers-liability",
+    "values": {}
+   },
    "gnews:73b013ffb467": {
     "platform": "google_news",
     "source": "google_news/search",
     "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
     "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+    "values": {}
+   },
+   "gnews:77a0f695f9b2": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Cisco and OpenAI dispatch AI agents to shield vulnerable systems before permanent patches arrive",
+    "url": "https://www.infoworld.com/article/4252807/cisco-and-openai-dispatch-ai-agents-to-shield-vulnerable-systems-before-permanent-patches-arrive.html",
     "values": {}
    },
    "gnews:7fb64c166b2f": {
@@ -1131,6 +1185,13 @@
     "source": "google_news/search",
     "title": "What United Airlines banning AI agents from booking flights means for your travel plans",
     "url": "https://www.foxnews.com/tech/united-airlines-banning-ai-agents-booking-flights-means-travel-plans",
+    "values": {}
+   },
+   "gnews:8c507d5ff987": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Brian Halligan's HubSpot refounding: opening the CRM to AI agents",
+    "url": "https://app.dealroom.co/news/note/brian-halligan-s-hubspot-refounding-opening-the-crm-to-ai-agents",
     "values": {}
    },
    "gnews:94fc25d3b4c2": {
@@ -1168,6 +1229,13 @@
     "url": "https://venturebeat.com/technology/nearly-half-of-surveyed-engineers-and-leaders-say-the-ai-agents-that-write-their-code-also-review-it",
     "values": {}
    },
+   "gnews:9b0befc9a206": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "I built an AI agent. It broke my assumptions about my own team",
+    "url": "https://www.cio.com/article/4252552/i-built-an-ai-agent-it-broke-my-assumptions-about-my-own-team.html",
+    "values": {}
+   },
    "gnews:a1bddf2a9703": {
     "platform": "google_news",
     "source": "google_news/search",
@@ -1196,6 +1264,13 @@
     "url": "https://en.wowtale.net/2026/11/25/236159/",
     "values": {}
    },
+   "gnews:b28bc196d3cd": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Workday Q3 better than expected, sees AI agent uptake",
+    "url": "https://www.constellationr.com/insights/news/workday-q3-better-expected-sees-ai-agent-uptake",
+    "values": {}
+   },
    "gnews:b6e16fd0678a": {
     "platform": "google_news",
     "source": "google_news/search",
@@ -1208,6 +1283,13 @@
     "source": "google_news/search",
     "title": "Signal Moves to Block AI Agents",
     "url": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
+    "values": {}
+   },
+   "gnews:ccd2490db472": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Kaspersky’s Igor Kuznetsov on containing AI-agent security incidents [Q&A]",
+    "url": "https://technode.global/2026/11/25/kaspersky-igor-kuznetsov-ai-agent-security-containment-qa/",
     "values": {}
    },
    "gnews:d331fb83b9e8": {
@@ -1236,6 +1318,13 @@
     "source": "google_news/search",
     "title": "AI is moving way too fast",
     "url": "https://www.natesilver.net/p/ai-is-moving-way-too-fast?utm_source=substack&utm_medium=email&utm_content=share&action=share",
+    "values": {}
+   },
+   "gnews:e77cfbe481a0": {
+    "platform": "google_news",
+    "source": "google_news/search",
+    "title": "Will We Learn to Trust AI Agents? My Family History Offers a Clue",
+    "url": "https://thefinancialbrand.com/news/artificial-intelligence-banking/will-we-learn-to-trust-ai-agents-my-family-history-offers-a-clue-200890",
     "values": {}
    },
    "gnews:ec869ae3567a": {
@@ -1280,6 +1369,20 @@
     "url": "https://www.producthunt.com/products/astrolabio",
     "values": {}
    },
+   "producthunt:blink-35": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Blink",
+    "url": "https://www.producthunt.com/products/blink-35",
+    "values": {}
+   },
+   "producthunt:canva": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Canva MCP",
+    "url": "https://www.producthunt.com/products/canva",
+    "values": {}
+   },
    "producthunt:claude-code": {
     "platform": "producthunt",
     "source": "producthunt/trending",
@@ -1301,6 +1404,20 @@
     "url": "https://www.producthunt.com/products/distribution-dev",
     "values": {}
    },
+   "producthunt:eluna": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "eluna",
+    "url": "https://www.producthunt.com/products/eluna",
+    "values": {}
+   },
+   "producthunt:file-spot": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "file.spot",
+    "url": "https://www.producthunt.com/products/file-spot",
+    "values": {}
+   },
    "producthunt:finer-screenshot": {
     "platform": "producthunt",
     "source": "producthunt/trending",
@@ -1315,6 +1432,13 @@
     "url": "https://www.producthunt.com/products/finseo-ai",
     "values": {}
    },
+   "producthunt:fompi": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Fompi",
+    "url": "https://www.producthunt.com/products/fompi",
+    "values": {}
+   },
    "producthunt:frwrd-to": {
     "platform": "producthunt",
     "source": "producthunt/trending",
@@ -1322,11 +1446,25 @@
     "url": "https://www.producthunt.com/products/frwrd-to",
     "values": {}
    },
+   "producthunt:gibhub-git-file-history": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "GibHub",
+    "url": "https://www.producthunt.com/products/gibhub-git-file-history",
+    "values": {}
+   },
    "producthunt:granular-build": {
     "platform": "producthunt",
     "source": "producthunt/trending",
     "title": "Granular.Build",
     "url": "https://www.producthunt.com/products/granular-build",
+    "values": {}
+   },
+   "producthunt:hai-4": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Hai",
+    "url": "https://www.producthunt.com/products/hai-4",
     "values": {}
    },
    "producthunt:hourly-journal": {
@@ -1357,11 +1495,53 @@
     "url": "https://www.producthunt.com/products/kodak-slidetag",
     "values": {}
    },
+   "producthunt:koed": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Koed",
+    "url": "https://www.producthunt.com/products/koed",
+    "values": {}
+   },
+   "producthunt:magi-1": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "MAGI-2",
+    "url": "https://www.producthunt.com/products/magi-1",
+    "values": {}
+   },
+   "producthunt:memoryworks": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "MemoryWorks",
+    "url": "https://www.producthunt.com/products/memoryworks",
+    "values": {}
+   },
+   "producthunt:myclaw-3-0": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "MyClaw 3.0",
+    "url": "https://www.producthunt.com/products/myclaw-3-0",
+    "values": {}
+   },
+   "producthunt:partgenie": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "PartGenie 2.0",
+    "url": "https://www.producthunt.com/products/partgenie",
+    "values": {}
+   },
    "producthunt:prates": {
     "platform": "producthunt",
     "source": "producthunt/trending",
     "title": "Prates",
     "url": "https://www.producthunt.com/products/prates",
+    "values": {}
+   },
+   "producthunt:qube-6": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Qube",
+    "url": "https://www.producthunt.com/products/qube-6",
     "values": {}
    },
    "producthunt:rotara": {
@@ -1378,11 +1558,25 @@
     "url": "https://www.producthunt.com/products/sparrowdesk",
     "values": {}
    },
+   "producthunt:steerlatch": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "SteerLatch",
+    "url": "https://www.producthunt.com/products/steerlatch",
+    "values": {}
+   },
    "producthunt:tday": {
     "platform": "producthunt",
     "source": "producthunt/trending",
     "title": "tday.com",
     "url": "https://www.producthunt.com/products/tday",
+    "values": {}
+   },
+   "producthunt:tendeck": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Tendeck",
+    "url": "https://www.producthunt.com/products/tendeck",
     "values": {}
    },
    "producthunt:tendor": {
@@ -1392,6 +1586,20 @@
     "url": "https://www.producthunt.com/products/tendor",
     "values": {}
    },
+   "producthunt:tray-2": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Tray",
+    "url": "https://www.producthunt.com/products/tray-2",
+    "values": {}
+   },
+   "producthunt:truastra": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "TruAstra",
+    "url": "https://www.producthunt.com/products/truastra",
+    "values": {}
+   },
    "producthunt:umami-manager": {
     "platform": "producthunt",
     "source": "producthunt/trending",
@@ -1399,11 +1607,32 @@
     "url": "https://www.producthunt.com/products/umami-manager",
     "values": {}
    },
+   "producthunt:unify-5": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Continual-ARC",
+    "url": "https://www.producthunt.com/products/unify-5",
+    "values": {}
+   },
+   "producthunt:vibecode-surf": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "VibeCode.surf",
+    "url": "https://www.producthunt.com/products/vibecode-surf",
+    "values": {}
+   },
    "producthunt:viktor": {
     "platform": "producthunt",
     "source": "producthunt/trending",
     "title": "Viktor Code",
     "url": "https://www.producthunt.com/products/viktor",
+    "values": {}
+   },
+   "producthunt:vybe-4": {
+    "platform": "producthunt",
+    "source": "producthunt/trending",
+    "title": "Falcon by Vybe",
+    "url": "https://www.producthunt.com/products/vybe-4",
     "values": {}
    },
    "producthunt:wellbreak": {
