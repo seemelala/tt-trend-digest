@@ -1809,11 +1809,17 @@
      "upvotes": 0
     }
    }
-  }
+  },
+  "2026-11-26": {}
  },
  "version": 1,
  "weekly_project_history": {
+  "ruanyf_weekly:abraham721/photoshot": "2026-11-26",
+  "ruanyf_weekly:acane0320/tomoru": "2026-11-26",
+  "ruanyf_weekly:aeroxy/google-cloud-shell-cli": "2026-11-26",
   "ruanyf_weekly:arunsupe/semantic-grep": "2026-11-25",
+  "ruanyf_weekly:lizhaowu-79/xjyeditor": "2026-11-26",
+  "ruanyf_weekly:lxyeternal/pathtracker": "2026-11-26",
   "ruanyf_weekly:netdata/netdata": "2026-11-25",
   "ruanyf_weekly:netdcy/flowvision": "2026-11-25",
   "ruanyf_weekly:srcbookdev/srcbook": "2026-11-25",

@@ -1,0 +1,122 @@
+{
+ "version": 1,
+ "date": "2026-11-26",
+ "language": "en",
+ "title": "EveryInfra Trend Digest · Thu, Nov 26",
+ "keywords": [
+  "Photoshot",
+  "Editor",
+  "GCS"
+ ],
+ "sections": [
+  {
+   "id": "ruanyf_weekly",
+   "label": "周刊项目精选",
+   "icon_url": "",
+   "items": [
+    {
+     "id": "ruanyf_weekly:abraham721/photoshot",
+     "source": "ruanyf_weekly",
+     "title": "Photoshot",
+     "url": "https://github.com/abraham721/photoshot",
+     "summary": "开源的基于浏览器的图片编辑器。（@Abraham721 投稿）",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    },
+    {
+     "id": "ruanyf_weekly:lizhaowu-79/xjyeditor",
+     "source": "ruanyf_weekly",
+     "title": "XJY Editor",
+     "url": "https://github.com/lizhaowu-79/xjyeditor",
+     "summary": "一个纯静态的网页应用，采用表格形式可视化编辑 XML / KML / JSON / YAML 文件。（@lizhaowu-79 投稿）",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    },
+    {
+     "id": "ruanyf_weekly:aeroxy/google-cloud-shell-cli",
+     "source": "ruanyf_weekly",
+     "title": "GCS",
+     "url": "https://github.com/aeroxy/google-cloud-shell-cli",
+     "summary": "谷歌云的非官方命令行客户端，可以从命令行登录谷歌云的主机，进行各种操作。（@aeroxy 投稿）",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    },
+    {
+     "id": "ruanyf_weekly:lxyeternal/pathtracker",
+     "source": "ruanyf_weekly",
+     "title": "Waytrace",
+     "url": "https://github.com/lxyeternal/pathtracker",
+     "summary": "开源的 iOS 应用，不需要手动操作，在后台全天记录你当天的足迹动向。（@lxyeternal 投稿）",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    },
+    {
+     "id": "ruanyf_weekly:acane0320/tomoru",
+     "source": "ruanyf_weekly",
+     "title": "Tomoru",
+     "url": "https://github.com/acane0320/tomoru",
+     "summary": "跨平台桌面应用，捕获电脑或指定应用播放的声音，实时识别，并在屏幕上显示双语悬浮字幕。（@ACAne0320 投稿）",
+     "metric_text": "周刊第 420 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 420
+     }
+    }
+   ]
+  }
+ ],
+ "weekly": null,
+ "usage": {
+  "calls": 3,
+  "charged_usd": 0.0,
+  "failed": [
+   {
+    "source": "github/trending",
+    "reason": "http_402",
+    "detail": "{\"error\":{\"code\":\"quota_exhausted\",\"message\":\"insufficient quota, please top up\",\"request_id\":\"req_5aaaadae754c43b4\",\"fault\":\"account\",\"retryable\":false,\"next_steps\":[\"The balance can't pay for this call. Nothing was charged. The account has never topped up; tell the user a first top-up opens at https://everyinfra.com/app#redeem?amount=10 (see `topup`).\"],\"topup\":{\"first_topup\":true,\"amount_usd\":10,\"url\":\"https://everyinfra.com/app#redeem?amount=10\",\"message\":\"This account has never topped up. A"
+   },
+   {
+    "source": "producthunt/trending",
+    "reason": "http_402",
+    "detail": "{\"error\":{\"code\":\"quota_exhausted\",\"message\":\"insufficient quota, please top up\",\"request_id\":\"req_8ed0cd9b1392475d\",\"fault\":\"account\",\"retryable\":false,\"next_steps\":[\"The balance can't pay for this call. Nothing was charged. The account has never topped up; tell the user a first top-up opens at https://everyinfra.com/app#redeem?amount=10 (see `topup`).\"],\"topup\":{\"first_topup\":true,\"amount_usd\":10,\"url\":\"https://everyinfra.com/app#redeem?amount=10\",\"message\":\"This account has never topped up. A"
+   },
+   {
+    "source": "google_news/search",
+    "reason": "http_402",
+    "detail": "{\"error\":{\"code\":\"quota_exhausted\",\"message\":\"insufficient quota, please top up\",\"request_id\":\"req_64cfc4e2011c4f01\",\"fault\":\"account\",\"retryable\":false,\"next_steps\":[\"The balance can't pay for this call. Nothing was charged. The account has never topped up; tell the user a first top-up opens at https://everyinfra.com/app#redeem?amount=10 (see `topup`).\"],\"topup\":{\"first_topup\":true,\"amount_usd\":10,\"url\":\"https://everyinfra.com/app#redeem?amount=10\",\"message\":\"This account has never topped up. A"
+   }
+  ]
+ },
+ "index_entry": {
+  "date": "2026-11-26",
+  "title": "EveryInfra Trend Digest · Thu, Nov 26",
+  "keywords": [
+   "Photoshot",
+   "Editor",
+   "GCS"
+  ],
+  "count": 5
+ }
+}
