@@ -1,0 +1,122 @@
+{
+ "version": 1,
+ "date": "2026-11-27",
+ "language": "en",
+ "title": "EveryInfra Trend Digest · Fri, Nov 27",
+ "keywords": [
+  "Cloudflare",
+  "Code",
+  "Plasmo"
+ ],
+ "sections": [
+  {
+   "id": "ruanyf_weekly",
+   "label": "周刊项目精选",
+   "icon_url": "",
+   "items": [
+    {
+     "id": "ruanyf_weekly:plasmohq/plasmo",
+     "source": "ruanyf_weekly",
+     "title": "Plasmo",
+     "url": "https://github.com/plasmohq/plasmo",
+     "summary": "一个开发 Chrome 浏览器插件的框架。",
+     "metric_text": "周刊第 421 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 421
+     }
+    },
+    {
+     "id": "ruanyf_weekly:lxyeternal/trace",
+     "source": "ruanyf_weekly",
+     "title": "Trace",
+     "url": "https://github.com/lxyeternal/trace",
+     "summary": "一个 macOS 菜单栏应用，自动记录你打开的应用、窗口、文件、网页，以及停留了多久，不需要手动计时。（@lxyeternal 投稿）",
+     "metric_text": "周刊第 421 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 421
+     }
+    },
+    {
+     "id": "ruanyf_weekly:xinglingqaq/uptimepolaris",
+     "source": "ruanyf_weekly",
+     "title": "Uptime Polaris",
+     "url": "https://github.com/xinglingqaq/uptimepolaris",
+     "summary": "开源的服务监控系统，检查网站是否在线，采集服务器指标，在状态变化时发送通知，可以部署在 Cloudflare Worker。（@XingLingQAQ 投稿）",
+     "metric_text": "周刊第 421 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 421
+     }
+    },
+    {
+     "id": "ruanyf_weekly:fengyiqicoder/guestpass",
+     "source": "ruanyf_weekly",
+     "title": "GuestPass",
+     "url": "https://github.com/fengyiqicoder/guestpass",
+     "summary": "这个工具可以把 Claude Code、Codex、Gemini CLI 的会话，变成一个链接，通过 Cloudflare tunnel 分享出去。访问该链接，就能实时访问/操作该会话，不需要安装 …",
+     "metric_text": "周刊第 421 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 421
+     }
+    },
+    {
+     "id": "ruanyf_weekly:foursmith/vl",
+     "source": "ruanyf_weekly",
+     "title": "vl",
+     "url": "https://github.com/foursmith/vl",
+     "summary": "一个终端环境，将 VS Code 的体验搬到终端里面。（@ourongxing 投稿）",
+     "metric_text": "周刊第 421 期",
+     "metrics": [],
+     "why": "",
+     "extra": {
+      "platform": "ruanyf_weekly",
+      "issue": 421
+     }
+    }
+   ]
+  }
+ ],
+ "weekly": null,
+ "usage": {
+  "calls": 3,
+  "charged_usd": 0.0,
+  "failed": [
+   {
+    "source": "github/trending",
+    "reason": "http_402",
+    "detail": "{\"error\":{\"code\":\"quota_exhausted\",\"message\":\"insufficient quota, please top up\",\"request_id\":\"req_68b85e2325f4419b\",\"fault\":\"account\",\"retryable\":false,\"next_steps\":[\"The balance can't pay for this call. Nothing was charged. The account has never topped up; tell the user a first top-up opens at https://everyinfra.com/app#redeem?amount=10 (see `topup`).\"],\"topup\":{\"first_topup\":true,\"amount_usd\":10,\"url\":\"https://everyinfra.com/app#redeem?amount=10\",\"message\":\"This account has never topped up. A"
+   },
+   {
+    "source": "producthunt/trending",
+    "reason": "http_402",
+    "detail": "{\"error\":{\"code\":\"quota_exhausted\",\"message\":\"insufficient quota, please top up\",\"request_id\":\"req_901aec04af934c68\",\"fault\":\"account\",\"retryable\":false,\"next_steps\":[\"The balance can't pay for this call. Nothing was charged. The account has never topped up; tell the user a first top-up opens at https://everyinfra.com/app#redeem?amount=10 (see `topup`).\"],\"topup\":{\"first_topup\":true,\"amount_usd\":10,\"url\":\"https://everyinfra.com/app#redeem?amount=10\",\"message\":\"This account has never topped up. A"
+   },
+   {
+    "source": "google_news/search",
+    "reason": "http_402",
+    "detail": "{\"error\":{\"code\":\"quota_exhausted\",\"message\":\"insufficient quota, please top up\",\"request_id\":\"req_5f66e725704f43c0\",\"fault\":\"account\",\"retryable\":false,\"next_steps\":[\"The balance can't pay for this call. Nothing was charged. The account has never topped up; tell the user a first top-up opens at https://everyinfra.com/app#redeem?amount=10 (see `topup`).\"],\"topup\":{\"first_topup\":true,\"amount_usd\":10,\"url\":\"https://everyinfra.com/app#redeem?amount=10\",\"message\":\"This account has never topped up. A"
+   }
+  ]
+ },
+ "index_entry": {
+  "date": "2026-11-27",
+  "title": "EveryInfra Trend Digest · Fri, Nov 27",
+  "keywords": [
+   "Cloudflare",
+   "Code",
+   "Plasmo"
+  ],
+  "count": 5
+ }
+}
